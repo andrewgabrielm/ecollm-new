@@ -1,0 +1,69 @@
+[project]
+name = "adaptive-local-broker"
+version = "0.1.0"
+description = "Single-user local-first LLM broker (implementation in progress)"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "fastapi==0.165.0",
+  "httpx==0.28.1",
+  "lightgbm==4.7.0",
+  "presidio-analyzer==2.2.366",
+  "psutil==7.2.2",
+  "pydantic==2.12.5",
+  "PyYAML==6.0.3",
+  "spacy==3.8.18",
+  "tldextract==5.4.0",
+  "uvicorn==0.54.0",
+]
+
+[project.optional-dependencies]
+privacy-model = [
+    "en-core-web-sm",
+]
+
+[dependency-groups]
+dev = [
+  "mypy==1.19.0",
+  "pytest==9.0.2",
+  "pytest-socket==0.7.0",
+  "respx==0.23.1",
+  "ruff==0.14.10",
+  "types-PyYAML==6.0.12.20250915",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+extend-exclude = [".uv-cache", "var", "evaluation/results"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.ruff.lint.per-file-ignores]
+# Step 11 benchmark data tables carry verbatim prompt/passage strings whose
+# length matches the dataset content rather than code style.
+"backend/learning/benchmarks/generators.py" = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+files = ["backend", "scripts", "tests"]
+exclude = [".venv", ".uv-cache"]
+explicit_package_bases = true
+namespace_packages = true
+mypy_path = ["."]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "--strict-markers --strict-config --disable-socket --allow-unix-socket -m 'not slow'"
+markers = [
+  "slow: explicit opt-in asset/runtime checks, excluded from fast offline checks",
+  "privacy: privacy engine, request-local state and sanitized dispatch invariants",
+]

@@ -1,0 +1,20 @@
+{
+  "category_counts": {
+    "classify": 45,
+    "code": 39,
+    "extract": 45,
+    "format": 42,
+    "qa": 45,
+    "reason": 42,
+    "summarise": 42
+  },
+  "family_count": 100,
+  "generator_version": "benchmarks-generators-v1",
+  "schema_version": "benchmarks-v1",
+  "task_count": 300,
+  "tasks_hash": "8be8d74c78412ab3e7db1c51b7101814fe94ea3e71f6faf4a594e07da60ca84d",
+  "train_count": 216,
+  "train_hash": "ae7c667e1aeaf46acc9b50ca2569285acff4fe858fb9d998fff61a034612946f",
+  "validation_count": 84,
+  "validation_hash": "9abc613f4c4ee867fc068a18fe1e6b33643ace8193561a9f122ab3a9cd7de58f"
+}

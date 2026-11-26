@@ -1,0 +1,1533 @@
+{
+  "schema_version": "benchmarks-v1",
+  "split": "dev_validation",
+  "tasks": [
+    {
+      "category": "qa",
+      "family_id": "qa-element-symbol-fe",
+      "prompt": "Answer briefly: what is the chemical symbol of iron?",
+      "reference": {
+        "answers": [
+          "Fe"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-element-symbol-fe-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-element-symbol-fe",
+      "prompt": "In one word or number, give the chemical symbol of iron.",
+      "reference": {
+        "answers": [
+          "Fe"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-element-symbol-fe-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-element-symbol-fe",
+      "prompt": "Respond with only the chemical symbol of iron.",
+      "reference": {
+        "answers": [
+          "Fe"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-element-symbol-fe-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-water-freeze-c",
+      "prompt": "Answer briefly: what is the freezing point in Celsius of water at sea level?",
+      "reference": {
+        "answers": [
+          "0",
+          "zero"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-water-freeze-c-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-water-freeze-c",
+      "prompt": "In one word or number, give the freezing point in Celsius of water at sea level.",
+      "reference": {
+        "answers": [
+          "0",
+          "zero"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-water-freeze-c-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-water-freeze-c",
+      "prompt": "Respond with only the freezing point in Celsius of water at sea level.",
+      "reference": {
+        "answers": [
+          "0",
+          "zero"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-water-freeze-c-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-coin-flip",
+      "prompt": "Reason step by step but answer with the final value only. What is the probability of getting exactly two heads in three fair coin flips, as a simplified fraction?",
+      "reference": {
+        "answers": [
+          "3/8"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-coin-flip-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-coin-flip",
+      "prompt": "Think through the problem silently and reply with just the final answer. What is the probability of getting exactly two heads in three fair coin flips, as a simplified fraction?",
+      "reference": {
+        "answers": [
+          "3/8"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-coin-flip-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-coin-flip",
+      "prompt": "Solve the following and respond with only the numeric answer. What is the probability of getting exactly two heads in three fair coin flips, as a simplified fraction?",
+      "reference": {
+        "answers": [
+          "3/8"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-coin-flip-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-speed-average",
+      "prompt": "Reason step by step but answer with the final value only. You drive 120 km in 2 hours then 100 km in 2 hours. What is your average speed in km/h?",
+      "reference": {
+        "answers": [
+          "55"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-speed-average-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-speed-average",
+      "prompt": "Think through the problem silently and reply with just the final answer. You drive 120 km in 2 hours then 100 km in 2 hours. What is your average speed in km/h?",
+      "reference": {
+        "answers": [
+          "55"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-speed-average-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-speed-average",
+      "prompt": "Solve the following and respond with only the numeric answer. You drive 120 km in 2 hours then 100 km in 2 hours. What is your average speed in km/h?",
+      "reference": {
+        "answers": [
+          "55"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-speed-average-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-digits-sum",
+      "prompt": "Reason step by step but answer with the final value only. What is the sum of the digits of 2026?",
+      "reference": {
+        "answers": [
+          "10",
+          "ten"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-digits-sum-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-digits-sum",
+      "prompt": "Think through the problem silently and reply with just the final answer. What is the sum of the digits of 2026?",
+      "reference": {
+        "answers": [
+          "10",
+          "ten"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-digits-sum-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-digits-sum",
+      "prompt": "Solve the following and respond with only the numeric answer. What is the sum of the digits of 2026?",
+      "reference": {
+        "answers": [
+          "10",
+          "ten"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-digits-sum-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-bridge-arch",
+      "prompt": "Summarise the passage below in one sentence:\n\nAn arch bridge transfers the load of the deck outward along the curve of the arch to supports at each end. The supports push back, keeping the arch in place.",
+      "reference": {
+        "reference": "An arch bridge carries loads along a curve to supports that push back.",
+        "source": "An arch bridge transfers the load of the deck outward along the curve of the arch to supports at each end. The supports push back, keeping the arch in place."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-bridge-arch-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-bridge-arch",
+      "prompt": "Produce a single-sentence summary of this passage:\n\nAn arch bridge transfers the load of the deck outward along the curve of the arch to supports at each end. The supports push back, keeping the arch in place.",
+      "reference": {
+        "reference": "An arch bridge carries loads along a curve to supports that push back.",
+        "source": "An arch bridge transfers the load of the deck outward along the curve of the arch to supports at each end. The supports push back, keeping the arch in place."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-bridge-arch-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-bridge-arch",
+      "prompt": "Read the passage and write one concise sentence that captures the main idea:\n\nAn arch bridge transfers the load of the deck outward along the curve of the arch to supports at each end. The supports push back, keeping the arch in place.",
+      "reference": {
+        "reference": "An arch bridge carries loads along a curve to supports that push back.",
+        "source": "An arch bridge transfers the load of the deck outward along the curve of the arch to supports at each end. The supports push back, keeping the arch in place."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-bridge-arch-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-compiler",
+      "prompt": "Summarise the passage below in one sentence:\n\nA compiler reads source code written by a programmer, checks that it is well formed, and translates it into machine instructions a computer can run directly.",
+      "reference": {
+        "reference": "A compiler translates checked source code into machine instructions.",
+        "source": "A compiler reads source code written by a programmer, checks that it is well formed, and translates it into machine instructions a computer can run directly."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-compiler-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-compiler",
+      "prompt": "Produce a single-sentence summary of this passage:\n\nA compiler reads source code written by a programmer, checks that it is well formed, and translates it into machine instructions a computer can run directly.",
+      "reference": {
+        "reference": "A compiler translates checked source code into machine instructions.",
+        "source": "A compiler reads source code written by a programmer, checks that it is well formed, and translates it into machine instructions a computer can run directly."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-compiler-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-compiler",
+      "prompt": "Read the passage and write one concise sentence that captures the main idea:\n\nA compiler reads source code written by a programmer, checks that it is well formed, and translates it into machine instructions a computer can run directly.",
+      "reference": {
+        "reference": "A compiler translates checked source code into machine instructions.",
+        "source": "A compiler reads source code written by a programmer, checks that it is well formed, and translates it into machine instructions a computer can run directly."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-compiler-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-lightning",
+      "prompt": "Summarise the passage below in one sentence:\n\nStatic charges build up between clouds and the ground until the air briefly becomes a conductor. A sudden current flows, heating the air so fast it explodes outward as thunder.",
+      "reference": {
+        "reference": "Lightning is a sudden current that equalises charge between clouds and the ground, heating the air into thunder.",
+        "source": "Static charges build up between clouds and the ground until the air briefly becomes a conductor. A sudden current flows, heating the air so fast it explodes outward as thunder."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-lightning-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-lightning",
+      "prompt": "Produce a single-sentence summary of this passage:\n\nStatic charges build up between clouds and the ground until the air briefly becomes a conductor. A sudden current flows, heating the air so fast it explodes outward as thunder.",
+      "reference": {
+        "reference": "Lightning is a sudden current that equalises charge between clouds and the ground, heating the air into thunder.",
+        "source": "Static charges build up between clouds and the ground until the air briefly becomes a conductor. A sudden current flows, heating the air so fast it explodes outward as thunder."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-lightning-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-lightning",
+      "prompt": "Read the passage and write one concise sentence that captures the main idea:\n\nStatic charges build up between clouds and the ground until the air briefly becomes a conductor. A sudden current flows, heating the air so fast it explodes outward as thunder.",
+      "reference": {
+        "reference": "Lightning is a sudden current that equalises charge between clouds and the ground, heating the air into thunder.",
+        "source": "Static charges build up between clouds and the ground until the air briefly becomes a conductor. A sudden current flows, heating the air so fast it explodes outward as thunder."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-lightning-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-sorting",
+      "prompt": "Summarise the passage below in one sentence:\n\nA sorting algorithm arranges items into a chosen order by comparing them. Different algorithms trade off how many comparisons they make and how much extra memory they need.",
+      "reference": {
+        "reference": "Sorting algorithms order items by comparison with different time and memory trade-offs.",
+        "source": "A sorting algorithm arranges items into a chosen order by comparing them. Different algorithms trade off how many comparisons they make and how much extra memory they need."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-sorting-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-sorting",
+      "prompt": "Produce a single-sentence summary of this passage:\n\nA sorting algorithm arranges items into a chosen order by comparing them. Different algorithms trade off how many comparisons they make and how much extra memory they need.",
+      "reference": {
+        "reference": "Sorting algorithms order items by comparison with different time and memory trade-offs.",
+        "source": "A sorting algorithm arranges items into a chosen order by comparing them. Different algorithms trade off how many comparisons they make and how much extra memory they need."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-sorting-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-sorting",
+      "prompt": "Read the passage and write one concise sentence that captures the main idea:\n\nA sorting algorithm arranges items into a chosen order by comparing them. Different algorithms trade off how many comparisons they make and how much extra memory they need.",
+      "reference": {
+        "reference": "Sorting algorithms order items by comparison with different time and memory trade-offs.",
+        "source": "A sorting algorithm arranges items into a chosen order by comparing them. Different algorithms trade off how many comparisons they make and how much extra memory they need."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-sorting-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-invoice-mid",
+      "prompt": "Extract the following fields as a JSON object with keys currency, customer, date, invoice_number, total: \"Invoice 2087 for customer Globex dated 2026-05-01 totals 1290.50 EUR.\"",
+      "reference": {
+        "fields": {
+          "currency": "EUR",
+          "customer": "Globex",
+          "date": "2026-05-01",
+          "invoice_number": "2087",
+          "total": "1290.50"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-invoice-mid-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-invoice-mid",
+      "prompt": "From the sentence below return a JSON object with keys currency, customer, date, invoice_number, total. Sentence: \"Invoice 2087 for customer Globex dated 2026-05-01 totals 1290.50 EUR.\"",
+      "reference": {
+        "fields": {
+          "currency": "EUR",
+          "customer": "Globex",
+          "date": "2026-05-01",
+          "invoice_number": "2087",
+          "total": "1290.50"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-invoice-mid-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-invoice-mid",
+      "prompt": "Read: \"Invoice 2087 for customer Globex dated 2026-05-01 totals 1290.50 EUR.\". Reply with a JSON object containing the keys currency, customer, date, invoice_number, total.",
+      "reference": {
+        "fields": {
+          "currency": "EUR",
+          "customer": "Globex",
+          "date": "2026-05-01",
+          "invoice_number": "2087",
+          "total": "1290.50"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-invoice-mid-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-invoice-large",
+      "prompt": "Extract the following fields as a JSON object with keys currency, customer, date, invoice_number, total: \"Invoice 3301 for customer Initech dated 2026-08-20 totals 87654.00 GBP.\"",
+      "reference": {
+        "fields": {
+          "currency": "GBP",
+          "customer": "Initech",
+          "date": "2026-08-20",
+          "invoice_number": "3301",
+          "total": "87654.00"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-invoice-large-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-invoice-large",
+      "prompt": "From the sentence below return a JSON object with keys currency, customer, date, invoice_number, total. Sentence: \"Invoice 3301 for customer Initech dated 2026-08-20 totals 87654.00 GBP.\"",
+      "reference": {
+        "fields": {
+          "currency": "GBP",
+          "customer": "Initech",
+          "date": "2026-08-20",
+          "invoice_number": "3301",
+          "total": "87654.00"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-invoice-large-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-invoice-large",
+      "prompt": "Read: \"Invoice 3301 for customer Initech dated 2026-08-20 totals 87654.00 GBP.\". Reply with a JSON object containing the keys currency, customer, date, invoice_number, total.",
+      "reference": {
+        "fields": {
+          "currency": "GBP",
+          "customer": "Initech",
+          "date": "2026-08-20",
+          "invoice_number": "3301",
+          "total": "87654.00"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-invoice-large-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-flight-one",
+      "prompt": "Extract the following fields as a JSON object with keys arrival, date, departure, destination, flight, origin: \"Flight AB123 departs London on 2026-03-10 at 08:45 and arrives in Paris at 11:05.\"",
+      "reference": {
+        "fields": {
+          "arrival": "11:05",
+          "date": "2026-03-10",
+          "departure": "08:45",
+          "destination": "Paris",
+          "flight": "AB123",
+          "origin": "London"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-flight-one-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-flight-one",
+      "prompt": "From the sentence below return a JSON object with keys arrival, date, departure, destination, flight, origin. Sentence: \"Flight AB123 departs London on 2026-03-10 at 08:45 and arrives in Paris at 11:05.\"",
+      "reference": {
+        "fields": {
+          "arrival": "11:05",
+          "date": "2026-03-10",
+          "departure": "08:45",
+          "destination": "Paris",
+          "flight": "AB123",
+          "origin": "London"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-flight-one-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-flight-one",
+      "prompt": "Read: \"Flight AB123 departs London on 2026-03-10 at 08:45 and arrives in Paris at 11:05.\". Reply with a JSON object containing the keys arrival, date, departure, destination, flight, origin.",
+      "reference": {
+        "fields": {
+          "arrival": "11:05",
+          "date": "2026-03-10",
+          "departure": "08:45",
+          "destination": "Paris",
+          "flight": "AB123",
+          "origin": "London"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-flight-one-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-shipment-small",
+      "prompt": "Extract the following fields as a JSON object with keys destination, origin, pallets, shipment_id, weight_kg: \"Shipment SH-7781 holds 3 pallets weighing 450 kg routed from Rotterdam to Oslo.\"",
+      "reference": {
+        "fields": {
+          "destination": "Oslo",
+          "origin": "Rotterdam",
+          "pallets": "3",
+          "shipment_id": "SH-7781",
+          "weight_kg": "450"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-shipment-small-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-shipment-small",
+      "prompt": "From the sentence below return a JSON object with keys destination, origin, pallets, shipment_id, weight_kg. Sentence: \"Shipment SH-7781 holds 3 pallets weighing 450 kg routed from Rotterdam to Oslo.\"",
+      "reference": {
+        "fields": {
+          "destination": "Oslo",
+          "origin": "Rotterdam",
+          "pallets": "3",
+          "shipment_id": "SH-7781",
+          "weight_kg": "450"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-shipment-small-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-shipment-small",
+      "prompt": "Read: \"Shipment SH-7781 holds 3 pallets weighing 450 kg routed from Rotterdam to Oslo.\". Reply with a JSON object containing the keys destination, origin, pallets, shipment_id, weight_kg.",
+      "reference": {
+        "fields": {
+          "destination": "Oslo",
+          "origin": "Rotterdam",
+          "pallets": "3",
+          "shipment_id": "SH-7781",
+          "weight_kg": "450"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-shipment-small-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-meeting-planner",
+      "prompt": "Extract the following fields as a JSON object with keys attendee, date, location, time, topic: \"Meeting with Sam on 2026-06-11 at 14:30 in Room 402 about the ingest rewrite.\"",
+      "reference": {
+        "fields": {
+          "attendee": "Sam",
+          "date": "2026-06-11",
+          "location": "Room 402",
+          "time": "14:30",
+          "topic": "ingest rewrite"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-meeting-planner-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-meeting-planner",
+      "prompt": "From the sentence below return a JSON object with keys attendee, date, location, time, topic. Sentence: \"Meeting with Sam on 2026-06-11 at 14:30 in Room 402 about the ingest rewrite.\"",
+      "reference": {
+        "fields": {
+          "attendee": "Sam",
+          "date": "2026-06-11",
+          "location": "Room 402",
+          "time": "14:30",
+          "topic": "ingest rewrite"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-meeting-planner-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-meeting-planner",
+      "prompt": "Read: \"Meeting with Sam on 2026-06-11 at 14:30 in Room 402 about the ingest rewrite.\". Reply with a JSON object containing the keys attendee, date, location, time, topic.",
+      "reference": {
+        "fields": {
+          "attendee": "Sam",
+          "date": "2026-06-11",
+          "location": "Room 402",
+          "time": "14:30",
+          "topic": "ingest rewrite"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-meeting-planner-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-meeting-review",
+      "prompt": "Extract the following fields as a JSON object with keys attendee, date, location, time, topic: \"Meeting with Priya on 2026-07-02 at 09:00 in Room 118 about the release checklist.\"",
+      "reference": {
+        "fields": {
+          "attendee": "Priya",
+          "date": "2026-07-02",
+          "location": "Room 118",
+          "time": "09:00",
+          "topic": "release checklist"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-meeting-review-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-meeting-review",
+      "prompt": "From the sentence below return a JSON object with keys attendee, date, location, time, topic. Sentence: \"Meeting with Priya on 2026-07-02 at 09:00 in Room 118 about the release checklist.\"",
+      "reference": {
+        "fields": {
+          "attendee": "Priya",
+          "date": "2026-07-02",
+          "location": "Room 118",
+          "time": "09:00",
+          "topic": "release checklist"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-meeting-review-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-meeting-review",
+      "prompt": "Read: \"Meeting with Priya on 2026-07-02 at 09:00 in Room 118 about the release checklist.\". Reply with a JSON object containing the keys attendee, date, location, time, topic.",
+      "reference": {
+        "fields": {
+          "attendee": "Priya",
+          "date": "2026-07-02",
+          "location": "Room 118",
+          "time": "09:00",
+          "topic": "release checklist"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-meeting-review-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-receipt-coffee",
+      "prompt": "Extract the following fields as a JSON object with keys currency, date, items, merchant, total: \"Receipt from Bean & Steam on 2026-11-02: 2 lattes and 1 croissant for 11.75 USD.\"",
+      "reference": {
+        "fields": {
+          "currency": "USD",
+          "date": "2026-11-02",
+          "items": "2 lattes and 1 croissant",
+          "merchant": "Bean & Steam",
+          "total": "11.75"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-receipt-coffee-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-receipt-coffee",
+      "prompt": "From the sentence below return a JSON object with keys currency, date, items, merchant, total. Sentence: \"Receipt from Bean & Steam on 2026-11-02: 2 lattes and 1 croissant for 11.75 USD.\"",
+      "reference": {
+        "fields": {
+          "currency": "USD",
+          "date": "2026-11-02",
+          "items": "2 lattes and 1 croissant",
+          "merchant": "Bean & Steam",
+          "total": "11.75"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-receipt-coffee-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-receipt-coffee",
+      "prompt": "Read: \"Receipt from Bean & Steam on 2026-11-02: 2 lattes and 1 croissant for 11.75 USD.\". Reply with a JSON object containing the keys currency, date, items, merchant, total.",
+      "reference": {
+        "fields": {
+          "currency": "USD",
+          "date": "2026-11-02",
+          "items": "2 lattes and 1 croissant",
+          "merchant": "Bean & Steam",
+          "total": "11.75"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-receipt-coffee-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-ticket-concert",
+      "prompt": "Extract the following fields as a JSON object with keys attendee, currency, date, price, seat, venue: \"Ticket for Nina on 2026-12-05 at Hall B seat 42 priced 85 USD.\"",
+      "reference": {
+        "fields": {
+          "attendee": "Nina",
+          "currency": "USD",
+          "date": "2026-12-05",
+          "price": "85",
+          "seat": "42",
+          "venue": "Hall B"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-ticket-concert-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-ticket-concert",
+      "prompt": "From the sentence below return a JSON object with keys attendee, currency, date, price, seat, venue. Sentence: \"Ticket for Nina on 2026-12-05 at Hall B seat 42 priced 85 USD.\"",
+      "reference": {
+        "fields": {
+          "attendee": "Nina",
+          "currency": "USD",
+          "date": "2026-12-05",
+          "price": "85",
+          "seat": "42",
+          "venue": "Hall B"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-ticket-concert-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-ticket-concert",
+      "prompt": "Read: \"Ticket for Nina on 2026-12-05 at Hall B seat 42 priced 85 USD.\". Reply with a JSON object containing the keys attendee, currency, date, price, seat, venue.",
+      "reference": {
+        "fields": {
+          "attendee": "Nina",
+          "currency": "USD",
+          "date": "2026-12-05",
+          "price": "85",
+          "seat": "42",
+          "venue": "Hall B"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-ticket-concert-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-neg-3",
+      "prompt": "Classify the text into one of positive, negative, neutral. Reply with only the label.\n\nText: The seat was uncomfortable and the movie was dull.",
+      "reference": {
+        "label": "negative",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-neg-3-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-neg-3",
+      "prompt": "Pick the correct label from positive, negative, neutral for the text and reply with only the label.\n\nText: The seat was uncomfortable and the movie was dull.",
+      "reference": {
+        "label": "negative",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-neg-3-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-neg-3",
+      "prompt": "Which of positive, negative, neutral best fits the following? Respond with the single label.\n\nText: The seat was uncomfortable and the movie was dull.",
+      "reference": {
+        "label": "negative",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-neg-3-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-business-1",
+      "prompt": "Classify the text into one of sport, science, business, politics. Reply with only the label.\n\nText: Shareholders approved the merger during an annual general meeting.",
+      "reference": {
+        "label": "business",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-business-1-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-business-1",
+      "prompt": "Pick the correct label from sport, science, business, politics for the text and reply with only the label.\n\nText: Shareholders approved the merger during an annual general meeting.",
+      "reference": {
+        "label": "business",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-business-1-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-business-1",
+      "prompt": "Which of sport, science, business, politics best fits the following? Respond with the single label.\n\nText: Shareholders approved the merger during an annual general meeting.",
+      "reference": {
+        "label": "business",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-business-1-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-politics-1",
+      "prompt": "Classify the text into one of sport, science, business, politics. Reply with only the label.\n\nText: The chamber voted to extend the parliamentary session by two weeks.",
+      "reference": {
+        "label": "politics",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-politics-1-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-politics-1",
+      "prompt": "Pick the correct label from sport, science, business, politics for the text and reply with only the label.\n\nText: The chamber voted to extend the parliamentary session by two weeks.",
+      "reference": {
+        "label": "politics",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-politics-1-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-politics-1",
+      "prompt": "Which of sport, science, business, politics best fits the following? Respond with the single label.\n\nText: The chamber voted to extend the parliamentary session by two weeks.",
+      "reference": {
+        "label": "politics",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-politics-1-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-sport-2",
+      "prompt": "Classify the text into one of sport, science, business, politics. Reply with only the label.\n\nText: A new stadium will host next season's championship matches.",
+      "reference": {
+        "label": "sport",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-sport-2-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-sport-2",
+      "prompt": "Pick the correct label from sport, science, business, politics for the text and reply with only the label.\n\nText: A new stadium will host next season's championship matches.",
+      "reference": {
+        "label": "sport",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-sport-2-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-sport-2",
+      "prompt": "Which of sport, science, business, politics best fits the following? Respond with the single label.\n\nText: A new stadium will host next season's championship matches.",
+      "reference": {
+        "label": "sport",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-sport-2-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-science-2",
+      "prompt": "Classify the text into one of sport, science, business, politics. Reply with only the label.\n\nText: Telescope observations suggest the dwarf galaxy is older than previously thought.",
+      "reference": {
+        "label": "science",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-science-2-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-science-2",
+      "prompt": "Pick the correct label from sport, science, business, politics for the text and reply with only the label.\n\nText: Telescope observations suggest the dwarf galaxy is older than previously thought.",
+      "reference": {
+        "label": "science",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-science-2-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-science-2",
+      "prompt": "Which of sport, science, business, politics best fits the following? Respond with the single label.\n\nText: Telescope observations suggest the dwarf galaxy is older than previously thought.",
+      "reference": {
+        "label": "science",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-science-2-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "format",
+      "family_id": "format-box",
+      "prompt": "Output a single JSON object describing a box of width 10, height 5, label=\"crate\". Keys and types: height: integer, label: string, width: integer. Return JSON only.",
+      "reference": {
+        "schema": {
+          "height": "integer",
+          "label": "string",
+          "width": "integer"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-box-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "format",
+      "family_id": "format-box",
+      "prompt": "Return only a JSON object for a box of width 10, height 5, label=\"crate\". It must have exactly the keys and types: height: integer, label: string, width: integer.",
+      "reference": {
+        "schema": {
+          "height": "integer",
+          "label": "string",
+          "width": "integer"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-box-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "format",
+      "family_id": "format-box",
+      "prompt": "Produce JSON (no prose) for a box of width 10, height 5, label=\"crate\" with these keys and types: height: integer, label: string, width: integer.",
+      "reference": {
+        "schema": {
+          "height": "integer",
+          "label": "string",
+          "width": "integer"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-box-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "format",
+      "family_id": "format-flag",
+      "prompt": "Output a single JSON object describing feature \"beta_ui\" enabled. Keys and types: enabled: boolean, name: string. Return JSON only.",
+      "reference": {
+        "schema": {
+          "enabled": "boolean",
+          "name": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-flag-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "format",
+      "family_id": "format-flag",
+      "prompt": "Return only a JSON object for feature \"beta_ui\" enabled. It must have exactly the keys and types: enabled: boolean, name: string.",
+      "reference": {
+        "schema": {
+          "enabled": "boolean",
+          "name": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-flag-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "format",
+      "family_id": "format-flag",
+      "prompt": "Produce JSON (no prose) for feature \"beta_ui\" enabled with these keys and types: enabled: boolean, name: string.",
+      "reference": {
+        "schema": {
+          "enabled": "boolean",
+          "name": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-flag-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "format",
+      "family_id": "format-counter",
+      "prompt": "Output a single JSON object describing a counter named \"requests\" with value 42. Keys and types: name: string, value: integer. Return JSON only.",
+      "reference": {
+        "schema": {
+          "name": "string",
+          "value": "integer"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-counter-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "format",
+      "family_id": "format-counter",
+      "prompt": "Return only a JSON object for a counter named \"requests\" with value 42. It must have exactly the keys and types: name: string, value: integer.",
+      "reference": {
+        "schema": {
+          "name": "string",
+          "value": "integer"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-counter-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "format",
+      "family_id": "format-counter",
+      "prompt": "Produce JSON (no prose) for a counter named \"requests\" with value 42 with these keys and types: name: string, value: integer.",
+      "reference": {
+        "schema": {
+          "name": "string",
+          "value": "integer"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-counter-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "code",
+      "family_id": "code-sum-list",
+      "prompt": "Write a Python function with the signature:\n\ndef sum_list(values: list[int]) -> int:\n    ...\n\nReturn only the complete function definition. No prose, no imports unless necessary.",
+      "reference": {
+        "function": "sum_list",
+        "signature": "def sum_list(values: list[int]) -> int:",
+        "tests": [
+          {
+            "expected": 0,
+            "input": [
+              []
+            ]
+          },
+          {
+            "expected": 1,
+            "input": [
+              [
+                1
+              ]
+            ]
+          },
+          {
+            "expected": 6,
+            "input": [
+              [
+                1,
+                2,
+                3
+              ]
+            ]
+          },
+          {
+            "expected": 0,
+            "input": [
+              [
+                -1,
+                1,
+                -2,
+                2
+              ]
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-sum-list-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "code",
+      "family_id": "code-sum-list",
+      "prompt": "Implement the Python function below exactly as named. Return only the function source.\n\ndef sum_list(values: list[int]) -> int:\n    ...",
+      "reference": {
+        "function": "sum_list",
+        "signature": "def sum_list(values: list[int]) -> int:",
+        "tests": [
+          {
+            "expected": 0,
+            "input": [
+              []
+            ]
+          },
+          {
+            "expected": 1,
+            "input": [
+              [
+                1
+              ]
+            ]
+          },
+          {
+            "expected": 6,
+            "input": [
+              [
+                1,
+                2,
+                3
+              ]
+            ]
+          },
+          {
+            "expected": 0,
+            "input": [
+              [
+                -1,
+                1,
+                -2,
+                2
+              ]
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-sum-list-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "code",
+      "family_id": "code-sum-list",
+      "prompt": "Produce a single Python function matching this signature. Reply with only the source.\n\ndef sum_list(values: list[int]) -> int:",
+      "reference": {
+        "function": "sum_list",
+        "signature": "def sum_list(values: list[int]) -> int:",
+        "tests": [
+          {
+            "expected": 0,
+            "input": [
+              []
+            ]
+          },
+          {
+            "expected": 1,
+            "input": [
+              [
+                1
+              ]
+            ]
+          },
+          {
+            "expected": 6,
+            "input": [
+              [
+                1,
+                2,
+                3
+              ]
+            ]
+          },
+          {
+            "expected": 0,
+            "input": [
+              [
+                -1,
+                1,
+                -2,
+                2
+              ]
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-sum-list-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "code",
+      "family_id": "code-gcd",
+      "prompt": "Write a Python function with the signature:\n\ndef gcd(a: int, b: int) -> int:\n    ...\n\nReturn only the complete function definition. No prose, no imports unless necessary.",
+      "reference": {
+        "function": "gcd",
+        "signature": "def gcd(a: int, b: int) -> int:",
+        "tests": [
+          {
+            "expected": 4,
+            "input": [
+              12,
+              8
+            ]
+          },
+          {
+            "expected": 3,
+            "input": [
+              9,
+              3
+            ]
+          },
+          {
+            "expected": 1,
+            "input": [
+              17,
+              5
+            ]
+          },
+          {
+            "expected": 7,
+            "input": [
+              0,
+              7
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-gcd-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "code",
+      "family_id": "code-gcd",
+      "prompt": "Implement the Python function below exactly as named. Return only the function source.\n\ndef gcd(a: int, b: int) -> int:\n    ...",
+      "reference": {
+        "function": "gcd",
+        "signature": "def gcd(a: int, b: int) -> int:",
+        "tests": [
+          {
+            "expected": 4,
+            "input": [
+              12,
+              8
+            ]
+          },
+          {
+            "expected": 3,
+            "input": [
+              9,
+              3
+            ]
+          },
+          {
+            "expected": 1,
+            "input": [
+              17,
+              5
+            ]
+          },
+          {
+            "expected": 7,
+            "input": [
+              0,
+              7
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-gcd-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "code",
+      "family_id": "code-gcd",
+      "prompt": "Produce a single Python function matching this signature. Reply with only the source.\n\ndef gcd(a: int, b: int) -> int:",
+      "reference": {
+        "function": "gcd",
+        "signature": "def gcd(a: int, b: int) -> int:",
+        "tests": [
+          {
+            "expected": 4,
+            "input": [
+              12,
+              8
+            ]
+          },
+          {
+            "expected": 3,
+            "input": [
+              9,
+              3
+            ]
+          },
+          {
+            "expected": 1,
+            "input": [
+              17,
+              5
+            ]
+          },
+          {
+            "expected": 7,
+            "input": [
+              0,
+              7
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-gcd-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "code",
+      "family_id": "code-palindrome",
+      "prompt": "Write a Python function with the signature:\n\ndef is_palindrome(text: str) -> bool:\n    ...\n\nReturn only the complete function definition. No prose, no imports unless necessary.",
+      "reference": {
+        "function": "is_palindrome",
+        "signature": "def is_palindrome(text: str) -> bool:",
+        "tests": [
+          {
+            "expected": true,
+            "input": [
+              ""
+            ]
+          },
+          {
+            "expected": true,
+            "input": [
+              "a"
+            ]
+          },
+          {
+            "expected": true,
+            "input": [
+              "abba"
+            ]
+          },
+          {
+            "expected": false,
+            "input": [
+              "abc"
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-palindrome-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "code",
+      "family_id": "code-palindrome",
+      "prompt": "Implement the Python function below exactly as named. Return only the function source.\n\ndef is_palindrome(text: str) -> bool:\n    ...",
+      "reference": {
+        "function": "is_palindrome",
+        "signature": "def is_palindrome(text: str) -> bool:",
+        "tests": [
+          {
+            "expected": true,
+            "input": [
+              ""
+            ]
+          },
+          {
+            "expected": true,
+            "input": [
+              "a"
+            ]
+          },
+          {
+            "expected": true,
+            "input": [
+              "abba"
+            ]
+          },
+          {
+            "expected": false,
+            "input": [
+              "abc"
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-palindrome-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "code",
+      "family_id": "code-palindrome",
+      "prompt": "Produce a single Python function matching this signature. Reply with only the source.\n\ndef is_palindrome(text: str) -> bool:",
+      "reference": {
+        "function": "is_palindrome",
+        "signature": "def is_palindrome(text: str) -> bool:",
+        "tests": [
+          {
+            "expected": true,
+            "input": [
+              ""
+            ]
+          },
+          {
+            "expected": true,
+            "input": [
+              "a"
+            ]
+          },
+          {
+            "expected": true,
+            "input": [
+              "abba"
+            ]
+          },
+          {
+            "expected": false,
+            "input": [
+              "abc"
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-palindrome-v2",
+      "variant_index": 2
+    }
+  ]
+}

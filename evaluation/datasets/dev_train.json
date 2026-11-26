@@ -1,0 +1,3912 @@
+{
+  "schema_version": "benchmarks-v1",
+  "split": "dev_train",
+  "tasks": [
+    {
+      "category": "qa",
+      "family_id": "qa-capital-france",
+      "prompt": "Answer briefly: what is the capital of France?",
+      "reference": {
+        "answers": [
+          "Paris"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-capital-france-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-capital-france",
+      "prompt": "In one word or number, give the capital of France.",
+      "reference": {
+        "answers": [
+          "Paris"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-capital-france-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-capital-france",
+      "prompt": "Respond with only the capital of France.",
+      "reference": {
+        "answers": [
+          "Paris"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-capital-france-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-capital-japan",
+      "prompt": "Answer briefly: what is the capital of Japan?",
+      "reference": {
+        "answers": [
+          "Tokyo"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-capital-japan-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-capital-japan",
+      "prompt": "In one word or number, give the capital of Japan.",
+      "reference": {
+        "answers": [
+          "Tokyo"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-capital-japan-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-capital-japan",
+      "prompt": "Respond with only the capital of Japan.",
+      "reference": {
+        "answers": [
+          "Tokyo"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-capital-japan-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-capital-brazil",
+      "prompt": "Answer briefly: what is the capital of Brazil?",
+      "reference": {
+        "answers": [
+          "Brasilia",
+          "Brasília"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-capital-brazil-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-capital-brazil",
+      "prompt": "In one word or number, give the capital of Brazil.",
+      "reference": {
+        "answers": [
+          "Brasilia",
+          "Brasília"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-capital-brazil-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-capital-brazil",
+      "prompt": "Respond with only the capital of Brazil.",
+      "reference": {
+        "answers": [
+          "Brasilia",
+          "Brasília"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-capital-brazil-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-capital-australia",
+      "prompt": "Answer briefly: what is the capital of Australia?",
+      "reference": {
+        "answers": [
+          "Canberra"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-capital-australia-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-capital-australia",
+      "prompt": "In one word or number, give the capital of Australia.",
+      "reference": {
+        "answers": [
+          "Canberra"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-capital-australia-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-capital-australia",
+      "prompt": "Respond with only the capital of Australia.",
+      "reference": {
+        "answers": [
+          "Canberra"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-capital-australia-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-capital-canada",
+      "prompt": "Answer briefly: what is the capital of Canada?",
+      "reference": {
+        "answers": [
+          "Ottawa"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-capital-canada-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-capital-canada",
+      "prompt": "In one word or number, give the capital of Canada.",
+      "reference": {
+        "answers": [
+          "Ottawa"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-capital-canada-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-capital-canada",
+      "prompt": "Respond with only the capital of Canada.",
+      "reference": {
+        "answers": [
+          "Ottawa"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-capital-canada-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-element-symbol-na",
+      "prompt": "Answer briefly: what is the chemical symbol of sodium?",
+      "reference": {
+        "answers": [
+          "Na"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-element-symbol-na-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-element-symbol-na",
+      "prompt": "In one word or number, give the chemical symbol of sodium.",
+      "reference": {
+        "answers": [
+          "Na"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-element-symbol-na-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-element-symbol-na",
+      "prompt": "Respond with only the chemical symbol of sodium.",
+      "reference": {
+        "answers": [
+          "Na"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-element-symbol-na-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-element-symbol-au",
+      "prompt": "Answer briefly: what is the chemical symbol of gold?",
+      "reference": {
+        "answers": [
+          "Au"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-element-symbol-au-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-element-symbol-au",
+      "prompt": "In one word or number, give the chemical symbol of gold.",
+      "reference": {
+        "answers": [
+          "Au"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-element-symbol-au-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-element-symbol-au",
+      "prompt": "Respond with only the chemical symbol of gold.",
+      "reference": {
+        "answers": [
+          "Au"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-element-symbol-au-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-planet-count",
+      "prompt": "Answer briefly: what is the number of planets in the Solar System?",
+      "reference": {
+        "answers": [
+          "8",
+          "eight"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-planet-count-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-planet-count",
+      "prompt": "In one word or number, give the number of planets in the Solar System.",
+      "reference": {
+        "answers": [
+          "8",
+          "eight"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-planet-count-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-planet-count",
+      "prompt": "Respond with only the number of planets in the Solar System.",
+      "reference": {
+        "answers": [
+          "8",
+          "eight"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-planet-count-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-speed-light-km-s",
+      "prompt": "Answer briefly: what is the approximate speed in km/s of light in a vacuum?",
+      "reference": {
+        "answers": [
+          "299792"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-speed-light-km-s-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-speed-light-km-s",
+      "prompt": "In one word or number, give the approximate speed in km/s of light in a vacuum.",
+      "reference": {
+        "answers": [
+          "299792"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-speed-light-km-s-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-speed-light-km-s",
+      "prompt": "Respond with only the approximate speed in km/s of light in a vacuum.",
+      "reference": {
+        "answers": [
+          "299792"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-speed-light-km-s-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-math-sqrt-144",
+      "prompt": "Answer briefly: what is the value of the square root of 144?",
+      "reference": {
+        "answers": [
+          "12",
+          "twelve"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-math-sqrt-144-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-math-sqrt-144",
+      "prompt": "In one word or number, give the value of the square root of 144.",
+      "reference": {
+        "answers": [
+          "12",
+          "twelve"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-math-sqrt-144-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-math-sqrt-144",
+      "prompt": "Respond with only the value of the square root of 144.",
+      "reference": {
+        "answers": [
+          "12",
+          "twelve"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-math-sqrt-144-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-math-pi-two-dp",
+      "prompt": "Answer briefly: what is the value of pi rounded to two decimal places?",
+      "reference": {
+        "answers": [
+          "3.14"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-math-pi-two-dp-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-math-pi-two-dp",
+      "prompt": "In one word or number, give the value of pi rounded to two decimal places.",
+      "reference": {
+        "answers": [
+          "3.14"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-math-pi-two-dp-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-math-pi-two-dp",
+      "prompt": "Respond with only the value of pi rounded to two decimal places.",
+      "reference": {
+        "answers": [
+          "3.14"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-math-pi-two-dp-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-continent-count",
+      "prompt": "Answer briefly: what is the number of continents on Earth?",
+      "reference": {
+        "answers": [
+          "7",
+          "seven"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-continent-count-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-continent-count",
+      "prompt": "In one word or number, give the number of continents on Earth.",
+      "reference": {
+        "answers": [
+          "7",
+          "seven"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-continent-count-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-continent-count",
+      "prompt": "Respond with only the number of continents on Earth.",
+      "reference": {
+        "answers": [
+          "7",
+          "seven"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-continent-count-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-week-days",
+      "prompt": "Answer briefly: what is the number of days in a week?",
+      "reference": {
+        "answers": [
+          "7",
+          "seven"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-week-days-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-week-days",
+      "prompt": "In one word or number, give the number of days in a week.",
+      "reference": {
+        "answers": [
+          "7",
+          "seven"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-week-days-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "qa",
+      "family_id": "qa-week-days",
+      "prompt": "Respond with only the number of days in a week.",
+      "reference": {
+        "answers": [
+          "7",
+          "seven"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "qa-week-days-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-trains-meet",
+      "prompt": "Reason step by step but answer with the final value only. Two trains leave stations 300 km apart at the same time and travel toward each other at 60 km/h and 90 km/h. How many hours until they meet?",
+      "reference": {
+        "answers": [
+          "2"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-trains-meet-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-trains-meet",
+      "prompt": "Think through the problem silently and reply with just the final answer. Two trains leave stations 300 km apart at the same time and travel toward each other at 60 km/h and 90 km/h. How many hours until they meet?",
+      "reference": {
+        "answers": [
+          "2"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-trains-meet-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-trains-meet",
+      "prompt": "Solve the following and respond with only the numeric answer. Two trains leave stations 300 km apart at the same time and travel toward each other at 60 km/h and 90 km/h. How many hours until they meet?",
+      "reference": {
+        "answers": [
+          "2"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-trains-meet-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-apples-sharing",
+      "prompt": "Reason step by step but answer with the final value only. Alice has 12 apples and gives one third of them to Bob. How many apples does Bob receive?",
+      "reference": {
+        "answers": [
+          "4",
+          "four"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-apples-sharing-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-apples-sharing",
+      "prompt": "Think through the problem silently and reply with just the final answer. Alice has 12 apples and gives one third of them to Bob. How many apples does Bob receive?",
+      "reference": {
+        "answers": [
+          "4",
+          "four"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-apples-sharing-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-apples-sharing",
+      "prompt": "Solve the following and respond with only the numeric answer. Alice has 12 apples and gives one third of them to Bob. How many apples does Bob receive?",
+      "reference": {
+        "answers": [
+          "4",
+          "four"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-apples-sharing-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-age-ratio",
+      "prompt": "Reason step by step but answer with the final value only. Carol is twice as old as Dan. In five years their combined age will be 40. How old is Carol now?",
+      "reference": {
+        "answers": [
+          "20"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-age-ratio-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-age-ratio",
+      "prompt": "Think through the problem silently and reply with just the final answer. Carol is twice as old as Dan. In five years their combined age will be 40. How old is Carol now?",
+      "reference": {
+        "answers": [
+          "20"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-age-ratio-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-age-ratio",
+      "prompt": "Solve the following and respond with only the numeric answer. Carol is twice as old as Dan. In five years their combined age will be 40. How old is Carol now?",
+      "reference": {
+        "answers": [
+          "20"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-age-ratio-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-rectangle-area",
+      "prompt": "Reason step by step but answer with the final value only. A rectangle measures 7 by 5. What is its area?",
+      "reference": {
+        "answers": [
+          "35"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-rectangle-area-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-rectangle-area",
+      "prompt": "Think through the problem silently and reply with just the final answer. A rectangle measures 7 by 5. What is its area?",
+      "reference": {
+        "answers": [
+          "35"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-rectangle-area-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-rectangle-area",
+      "prompt": "Solve the following and respond with only the numeric answer. A rectangle measures 7 by 5. What is its area?",
+      "reference": {
+        "answers": [
+          "35"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-rectangle-area-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-modular-arithmetic",
+      "prompt": "Reason step by step but answer with the final value only. What is 17 mod 5?",
+      "reference": {
+        "answers": [
+          "2",
+          "two"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-modular-arithmetic-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-modular-arithmetic",
+      "prompt": "Think through the problem silently and reply with just the final answer. What is 17 mod 5?",
+      "reference": {
+        "answers": [
+          "2",
+          "two"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-modular-arithmetic-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-modular-arithmetic",
+      "prompt": "Solve the following and respond with only the numeric answer. What is 17 mod 5?",
+      "reference": {
+        "answers": [
+          "2",
+          "two"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-modular-arithmetic-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-sequence-next",
+      "prompt": "Reason step by step but answer with the final value only. What number comes next in the sequence 2, 4, 8, 16, ...?",
+      "reference": {
+        "answers": [
+          "32"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-sequence-next-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-sequence-next",
+      "prompt": "Think through the problem silently and reply with just the final answer. What number comes next in the sequence 2, 4, 8, 16, ...?",
+      "reference": {
+        "answers": [
+          "32"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-sequence-next-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-sequence-next",
+      "prompt": "Solve the following and respond with only the numeric answer. What number comes next in the sequence 2, 4, 8, 16, ...?",
+      "reference": {
+        "answers": [
+          "32"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-sequence-next-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-price-discount",
+      "prompt": "Reason step by step but answer with the final value only. A shirt costs 40 dollars and is on sale for 25 percent off. What is the sale price in dollars?",
+      "reference": {
+        "answers": [
+          "30"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-price-discount-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-price-discount",
+      "prompt": "Think through the problem silently and reply with just the final answer. A shirt costs 40 dollars and is on sale for 25 percent off. What is the sale price in dollars?",
+      "reference": {
+        "answers": [
+          "30"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-price-discount-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-price-discount",
+      "prompt": "Solve the following and respond with only the numeric answer. A shirt costs 40 dollars and is on sale for 25 percent off. What is the sale price in dollars?",
+      "reference": {
+        "answers": [
+          "30"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-price-discount-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-primes-under-10",
+      "prompt": "Reason step by step but answer with the final value only. How many prime numbers are strictly less than 10?",
+      "reference": {
+        "answers": [
+          "4",
+          "four"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-primes-under-10-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-primes-under-10",
+      "prompt": "Think through the problem silently and reply with just the final answer. How many prime numbers are strictly less than 10?",
+      "reference": {
+        "answers": [
+          "4",
+          "four"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-primes-under-10-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-primes-under-10",
+      "prompt": "Solve the following and respond with only the numeric answer. How many prime numbers are strictly less than 10?",
+      "reference": {
+        "answers": [
+          "4",
+          "four"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-primes-under-10-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-clock-angle",
+      "prompt": "Reason step by step but answer with the final value only. At 3:00, what is the smaller angle between the hour and minute hands in degrees?",
+      "reference": {
+        "answers": [
+          "90"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-clock-angle-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-clock-angle",
+      "prompt": "Think through the problem silently and reply with just the final answer. At 3:00, what is the smaller angle between the hour and minute hands in degrees?",
+      "reference": {
+        "answers": [
+          "90"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-clock-angle-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-clock-angle",
+      "prompt": "Solve the following and respond with only the numeric answer. At 3:00, what is the smaller angle between the hour and minute hands in degrees?",
+      "reference": {
+        "answers": [
+          "90"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-clock-angle-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-boxes-weight",
+      "prompt": "Reason step by step but answer with the final value only. Five boxes weigh 3 kg each and two boxes weigh 4 kg each. What is the total weight in kilograms?",
+      "reference": {
+        "answers": [
+          "23"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-boxes-weight-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-boxes-weight",
+      "prompt": "Think through the problem silently and reply with just the final answer. Five boxes weigh 3 kg each and two boxes weigh 4 kg each. What is the total weight in kilograms?",
+      "reference": {
+        "answers": [
+          "23"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-boxes-weight-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-boxes-weight",
+      "prompt": "Solve the following and respond with only the numeric answer. Five boxes weigh 3 kg each and two boxes weigh 4 kg each. What is the total weight in kilograms?",
+      "reference": {
+        "answers": [
+          "23"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-boxes-weight-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-ratio-split",
+      "prompt": "Reason step by step but answer with the final value only. Split 60 dollars between two people in a 2:3 ratio. How many dollars does the smaller share receive?",
+      "reference": {
+        "answers": [
+          "24"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-ratio-split-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-ratio-split",
+      "prompt": "Think through the problem silently and reply with just the final answer. Split 60 dollars between two people in a 2:3 ratio. How many dollars does the smaller share receive?",
+      "reference": {
+        "answers": [
+          "24"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-ratio-split-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "reason",
+      "family_id": "reason-ratio-split",
+      "prompt": "Solve the following and respond with only the numeric answer. Split 60 dollars between two people in a 2:3 ratio. How many dollars does the smaller share receive?",
+      "reference": {
+        "answers": [
+          "24"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "reason-ratio-split-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-orbit",
+      "prompt": "Summarise the passage below in one sentence:\n\nA planet orbits a star because the star's gravity pulls on it. The planet's forward motion keeps it from falling straight in, and the balance between pull and motion traces an orbit.",
+      "reference": {
+        "reference": "A planet's orbit is the balance between the star's gravity and the planet's forward motion.",
+        "source": "A planet orbits a star because the star's gravity pulls on it. The planet's forward motion keeps it from falling straight in, and the balance between pull and motion traces an orbit."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-orbit-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-orbit",
+      "prompt": "Produce a single-sentence summary of this passage:\n\nA planet orbits a star because the star's gravity pulls on it. The planet's forward motion keeps it from falling straight in, and the balance between pull and motion traces an orbit.",
+      "reference": {
+        "reference": "A planet's orbit is the balance between the star's gravity and the planet's forward motion.",
+        "source": "A planet orbits a star because the star's gravity pulls on it. The planet's forward motion keeps it from falling straight in, and the balance between pull and motion traces an orbit."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-orbit-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-orbit",
+      "prompt": "Read the passage and write one concise sentence that captures the main idea:\n\nA planet orbits a star because the star's gravity pulls on it. The planet's forward motion keeps it from falling straight in, and the balance between pull and motion traces an orbit.",
+      "reference": {
+        "reference": "A planet's orbit is the balance between the star's gravity and the planet's forward motion.",
+        "source": "A planet orbits a star because the star's gravity pulls on it. The planet's forward motion keeps it from falling straight in, and the balance between pull and motion traces an orbit."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-orbit-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-photosynthesis",
+      "prompt": "Summarise the passage below in one sentence:\n\nPlants use sunlight to turn carbon dioxide and water into sugar and oxygen. The sugar feeds the plant and the oxygen is released into the air.",
+      "reference": {
+        "reference": "Plants convert sunlight, carbon dioxide and water into sugar and oxygen.",
+        "source": "Plants use sunlight to turn carbon dioxide and water into sugar and oxygen. The sugar feeds the plant and the oxygen is released into the air."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-photosynthesis-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-photosynthesis",
+      "prompt": "Produce a single-sentence summary of this passage:\n\nPlants use sunlight to turn carbon dioxide and water into sugar and oxygen. The sugar feeds the plant and the oxygen is released into the air.",
+      "reference": {
+        "reference": "Plants convert sunlight, carbon dioxide and water into sugar and oxygen.",
+        "source": "Plants use sunlight to turn carbon dioxide and water into sugar and oxygen. The sugar feeds the plant and the oxygen is released into the air."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-photosynthesis-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-photosynthesis",
+      "prompt": "Read the passage and write one concise sentence that captures the main idea:\n\nPlants use sunlight to turn carbon dioxide and water into sugar and oxygen. The sugar feeds the plant and the oxygen is released into the air.",
+      "reference": {
+        "reference": "Plants convert sunlight, carbon dioxide and water into sugar and oxygen.",
+        "source": "Plants use sunlight to turn carbon dioxide and water into sugar and oxygen. The sugar feeds the plant and the oxygen is released into the air."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-photosynthesis-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-rain",
+      "prompt": "Summarise the passage below in one sentence:\n\nWater evaporates from oceans and lakes under the sun. The vapour rises, cools, and condenses into droplets that eventually fall back as rain.",
+      "reference": {
+        "reference": "Water evaporates, condenses in clouds and falls back as rain.",
+        "source": "Water evaporates from oceans and lakes under the sun. The vapour rises, cools, and condenses into droplets that eventually fall back as rain."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-rain-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-rain",
+      "prompt": "Produce a single-sentence summary of this passage:\n\nWater evaporates from oceans and lakes under the sun. The vapour rises, cools, and condenses into droplets that eventually fall back as rain.",
+      "reference": {
+        "reference": "Water evaporates, condenses in clouds and falls back as rain.",
+        "source": "Water evaporates from oceans and lakes under the sun. The vapour rises, cools, and condenses into droplets that eventually fall back as rain."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-rain-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-rain",
+      "prompt": "Read the passage and write one concise sentence that captures the main idea:\n\nWater evaporates from oceans and lakes under the sun. The vapour rises, cools, and condenses into droplets that eventually fall back as rain.",
+      "reference": {
+        "reference": "Water evaporates, condenses in clouds and falls back as rain.",
+        "source": "Water evaporates from oceans and lakes under the sun. The vapour rises, cools, and condenses into droplets that eventually fall back as rain."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-rain-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-election",
+      "prompt": "Summarise the passage below in one sentence:\n\nIn a general election voters choose representatives who form a legislature. The group with the most seats usually forms the government.",
+      "reference": {
+        "reference": "Voters elect representatives, and the largest group forms the government.",
+        "source": "In a general election voters choose representatives who form a legislature. The group with the most seats usually forms the government."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-election-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-election",
+      "prompt": "Produce a single-sentence summary of this passage:\n\nIn a general election voters choose representatives who form a legislature. The group with the most seats usually forms the government.",
+      "reference": {
+        "reference": "Voters elect representatives, and the largest group forms the government.",
+        "source": "In a general election voters choose representatives who form a legislature. The group with the most seats usually forms the government."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-election-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-election",
+      "prompt": "Read the passage and write one concise sentence that captures the main idea:\n\nIn a general election voters choose representatives who form a legislature. The group with the most seats usually forms the government.",
+      "reference": {
+        "reference": "Voters elect representatives, and the largest group forms the government.",
+        "source": "In a general election voters choose representatives who form a legislature. The group with the most seats usually forms the government."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-election-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-immune",
+      "prompt": "Summarise the passage below in one sentence:\n\nThe immune system recognises invading pathogens and produces antibodies that bind to them. Those antibodies help cells destroy the invaders.",
+      "reference": {
+        "reference": "The immune system produces antibodies that help cells destroy invading pathogens.",
+        "source": "The immune system recognises invading pathogens and produces antibodies that bind to them. Those antibodies help cells destroy the invaders."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-immune-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-immune",
+      "prompt": "Produce a single-sentence summary of this passage:\n\nThe immune system recognises invading pathogens and produces antibodies that bind to them. Those antibodies help cells destroy the invaders.",
+      "reference": {
+        "reference": "The immune system produces antibodies that help cells destroy invading pathogens.",
+        "source": "The immune system recognises invading pathogens and produces antibodies that bind to them. Those antibodies help cells destroy the invaders."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-immune-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-immune",
+      "prompt": "Read the passage and write one concise sentence that captures the main idea:\n\nThe immune system recognises invading pathogens and produces antibodies that bind to them. Those antibodies help cells destroy the invaders.",
+      "reference": {
+        "reference": "The immune system produces antibodies that help cells destroy invading pathogens.",
+        "source": "The immune system recognises invading pathogens and produces antibodies that bind to them. Those antibodies help cells destroy the invaders."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-immune-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-vaccine",
+      "prompt": "Summarise the passage below in one sentence:\n\nA vaccine exposes the immune system to a harmless piece of a pathogen. The immune system learns to recognise it and responds faster if the real pathogen appears later.",
+      "reference": {
+        "reference": "A vaccine trains the immune system with a harmless signal so it can respond quickly to the real pathogen.",
+        "source": "A vaccine exposes the immune system to a harmless piece of a pathogen. The immune system learns to recognise it and responds faster if the real pathogen appears later."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-vaccine-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-vaccine",
+      "prompt": "Produce a single-sentence summary of this passage:\n\nA vaccine exposes the immune system to a harmless piece of a pathogen. The immune system learns to recognise it and responds faster if the real pathogen appears later.",
+      "reference": {
+        "reference": "A vaccine trains the immune system with a harmless signal so it can respond quickly to the real pathogen.",
+        "source": "A vaccine exposes the immune system to a harmless piece of a pathogen. The immune system learns to recognise it and responds faster if the real pathogen appears later."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-vaccine-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-vaccine",
+      "prompt": "Read the passage and write one concise sentence that captures the main idea:\n\nA vaccine exposes the immune system to a harmless piece of a pathogen. The immune system learns to recognise it and responds faster if the real pathogen appears later.",
+      "reference": {
+        "reference": "A vaccine trains the immune system with a harmless signal so it can respond quickly to the real pathogen.",
+        "source": "A vaccine exposes the immune system to a harmless piece of a pathogen. The immune system learns to recognise it and responds faster if the real pathogen appears later."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-vaccine-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-tides",
+      "prompt": "Summarise the passage below in one sentence:\n\nThe moon's gravity pulls water on the near side of the Earth toward it, and inertia creates a matching bulge on the far side. As the Earth rotates these bulges pass coastlines as tides.",
+      "reference": {
+        "reference": "The moon's gravity and the Earth's rotation produce tidal bulges that reach coastlines as tides.",
+        "source": "The moon's gravity pulls water on the near side of the Earth toward it, and inertia creates a matching bulge on the far side. As the Earth rotates these bulges pass coastlines as tides."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-tides-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-tides",
+      "prompt": "Produce a single-sentence summary of this passage:\n\nThe moon's gravity pulls water on the near side of the Earth toward it, and inertia creates a matching bulge on the far side. As the Earth rotates these bulges pass coastlines as tides.",
+      "reference": {
+        "reference": "The moon's gravity and the Earth's rotation produce tidal bulges that reach coastlines as tides.",
+        "source": "The moon's gravity pulls water on the near side of the Earth toward it, and inertia creates a matching bulge on the far side. As the Earth rotates these bulges pass coastlines as tides."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-tides-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-tides",
+      "prompt": "Read the passage and write one concise sentence that captures the main idea:\n\nThe moon's gravity pulls water on the near side of the Earth toward it, and inertia creates a matching bulge on the far side. As the Earth rotates these bulges pass coastlines as tides.",
+      "reference": {
+        "reference": "The moon's gravity and the Earth's rotation produce tidal bulges that reach coastlines as tides.",
+        "source": "The moon's gravity pulls water on the near side of the Earth toward it, and inertia creates a matching bulge on the far side. As the Earth rotates these bulges pass coastlines as tides."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-tides-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-cache",
+      "prompt": "Summarise the passage below in one sentence:\n\nA cache keeps a small fast copy of data so repeat requests do not need to recompute or refetch. When the cache is missing the data, the slow path is used and the cache can be updated.",
+      "reference": {
+        "reference": "A cache stores repeated data in fast memory to avoid recomputing or refetching.",
+        "source": "A cache keeps a small fast copy of data so repeat requests do not need to recompute or refetch. When the cache is missing the data, the slow path is used and the cache can be updated."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-cache-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-cache",
+      "prompt": "Produce a single-sentence summary of this passage:\n\nA cache keeps a small fast copy of data so repeat requests do not need to recompute or refetch. When the cache is missing the data, the slow path is used and the cache can be updated.",
+      "reference": {
+        "reference": "A cache stores repeated data in fast memory to avoid recomputing or refetching.",
+        "source": "A cache keeps a small fast copy of data so repeat requests do not need to recompute or refetch. When the cache is missing the data, the slow path is used and the cache can be updated."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-cache-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-cache",
+      "prompt": "Read the passage and write one concise sentence that captures the main idea:\n\nA cache keeps a small fast copy of data so repeat requests do not need to recompute or refetch. When the cache is missing the data, the slow path is used and the cache can be updated.",
+      "reference": {
+        "reference": "A cache stores repeated data in fast memory to avoid recomputing or refetching.",
+        "source": "A cache keeps a small fast copy of data so repeat requests do not need to recompute or refetch. When the cache is missing the data, the slow path is used and the cache can be updated."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-cache-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-sound",
+      "prompt": "Summarise the passage below in one sentence:\n\nSound is a pressure wave that travels through air by pushing molecules into each other. The ear converts the pattern of pressure into nerve signals the brain interprets as sound.",
+      "reference": {
+        "reference": "Sound is a pressure wave in air that the ear converts into signals for the brain.",
+        "source": "Sound is a pressure wave that travels through air by pushing molecules into each other. The ear converts the pattern of pressure into nerve signals the brain interprets as sound."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-sound-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-sound",
+      "prompt": "Produce a single-sentence summary of this passage:\n\nSound is a pressure wave that travels through air by pushing molecules into each other. The ear converts the pattern of pressure into nerve signals the brain interprets as sound.",
+      "reference": {
+        "reference": "Sound is a pressure wave in air that the ear converts into signals for the brain.",
+        "source": "Sound is a pressure wave that travels through air by pushing molecules into each other. The ear converts the pattern of pressure into nerve signals the brain interprets as sound."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-sound-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-sound",
+      "prompt": "Read the passage and write one concise sentence that captures the main idea:\n\nSound is a pressure wave that travels through air by pushing molecules into each other. The ear converts the pattern of pressure into nerve signals the brain interprets as sound.",
+      "reference": {
+        "reference": "Sound is a pressure wave in air that the ear converts into signals for the brain.",
+        "source": "Sound is a pressure wave that travels through air by pushing molecules into each other. The ear converts the pattern of pressure into nerve signals the brain interprets as sound."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-sound-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-map-scale",
+      "prompt": "Summarise the passage below in one sentence:\n\nA map scale tells you how distances on the paper correspond to distances in the real world. A one-to-one hundred thousand scale means one centimetre on the map is one kilometre on the ground.",
+      "reference": {
+        "reference": "A map scale states how paper distances map to real-world distances.",
+        "source": "A map scale tells you how distances on the paper correspond to distances in the real world. A one-to-one hundred thousand scale means one centimetre on the map is one kilometre on the ground."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-map-scale-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-map-scale",
+      "prompt": "Produce a single-sentence summary of this passage:\n\nA map scale tells you how distances on the paper correspond to distances in the real world. A one-to-one hundred thousand scale means one centimetre on the map is one kilometre on the ground.",
+      "reference": {
+        "reference": "A map scale states how paper distances map to real-world distances.",
+        "source": "A map scale tells you how distances on the paper correspond to distances in the real world. A one-to-one hundred thousand scale means one centimetre on the map is one kilometre on the ground."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-map-scale-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "summarise",
+      "family_id": "summarise-map-scale",
+      "prompt": "Read the passage and write one concise sentence that captures the main idea:\n\nA map scale tells you how distances on the paper correspond to distances in the real world. A one-to-one hundred thousand scale means one centimetre on the map is one kilometre on the ground.",
+      "reference": {
+        "reference": "A map scale states how paper distances map to real-world distances.",
+        "source": "A map scale tells you how distances on the paper correspond to distances in the real world. A one-to-one hundred thousand scale means one centimetre on the map is one kilometre on the ground."
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "summarise-map-scale-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-invoice-small",
+      "prompt": "Extract the following fields as a JSON object with keys currency, customer, date, invoice_number, total: \"Invoice 1042 for customer Acme Corp dated 2026-02-15 totals 240.00 USD.\"",
+      "reference": {
+        "fields": {
+          "currency": "USD",
+          "customer": "Acme Corp",
+          "date": "2026-02-15",
+          "invoice_number": "1042",
+          "total": "240.00"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-invoice-small-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-invoice-small",
+      "prompt": "From the sentence below return a JSON object with keys currency, customer, date, invoice_number, total. Sentence: \"Invoice 1042 for customer Acme Corp dated 2026-02-15 totals 240.00 USD.\"",
+      "reference": {
+        "fields": {
+          "currency": "USD",
+          "customer": "Acme Corp",
+          "date": "2026-02-15",
+          "invoice_number": "1042",
+          "total": "240.00"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-invoice-small-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-invoice-small",
+      "prompt": "Read: \"Invoice 1042 for customer Acme Corp dated 2026-02-15 totals 240.00 USD.\". Reply with a JSON object containing the keys currency, customer, date, invoice_number, total.",
+      "reference": {
+        "fields": {
+          "currency": "USD",
+          "customer": "Acme Corp",
+          "date": "2026-02-15",
+          "invoice_number": "1042",
+          "total": "240.00"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-invoice-small-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-flight-two",
+      "prompt": "Extract the following fields as a JSON object with keys arrival, date, departure, destination, flight, origin: \"Flight CD456 departs Tokyo on 2026-04-22 at 21:10 and arrives in Seoul at 23:40.\"",
+      "reference": {
+        "fields": {
+          "arrival": "23:40",
+          "date": "2026-04-22",
+          "departure": "21:10",
+          "destination": "Seoul",
+          "flight": "CD456",
+          "origin": "Tokyo"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-flight-two-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-flight-two",
+      "prompt": "From the sentence below return a JSON object with keys arrival, date, departure, destination, flight, origin. Sentence: \"Flight CD456 departs Tokyo on 2026-04-22 at 21:10 and arrives in Seoul at 23:40.\"",
+      "reference": {
+        "fields": {
+          "arrival": "23:40",
+          "date": "2026-04-22",
+          "departure": "21:10",
+          "destination": "Seoul",
+          "flight": "CD456",
+          "origin": "Tokyo"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-flight-two-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-flight-two",
+      "prompt": "Read: \"Flight CD456 departs Tokyo on 2026-04-22 at 21:10 and arrives in Seoul at 23:40.\". Reply with a JSON object containing the keys arrival, date, departure, destination, flight, origin.",
+      "reference": {
+        "fields": {
+          "arrival": "23:40",
+          "date": "2026-04-22",
+          "departure": "21:10",
+          "destination": "Seoul",
+          "flight": "CD456",
+          "origin": "Tokyo"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-flight-two-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-shipment-heavy",
+      "prompt": "Extract the following fields as a JSON object with keys destination, origin, pallets, shipment_id, weight_kg: \"Shipment SH-9120 holds 12 pallets weighing 2100 kg routed from Hamburg to Stockholm.\"",
+      "reference": {
+        "fields": {
+          "destination": "Stockholm",
+          "origin": "Hamburg",
+          "pallets": "12",
+          "shipment_id": "SH-9120",
+          "weight_kg": "2100"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-shipment-heavy-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-shipment-heavy",
+      "prompt": "From the sentence below return a JSON object with keys destination, origin, pallets, shipment_id, weight_kg. Sentence: \"Shipment SH-9120 holds 12 pallets weighing 2100 kg routed from Hamburg to Stockholm.\"",
+      "reference": {
+        "fields": {
+          "destination": "Stockholm",
+          "origin": "Hamburg",
+          "pallets": "12",
+          "shipment_id": "SH-9120",
+          "weight_kg": "2100"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-shipment-heavy-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-shipment-heavy",
+      "prompt": "Read: \"Shipment SH-9120 holds 12 pallets weighing 2100 kg routed from Hamburg to Stockholm.\". Reply with a JSON object containing the keys destination, origin, pallets, shipment_id, weight_kg.",
+      "reference": {
+        "fields": {
+          "destination": "Stockholm",
+          "origin": "Hamburg",
+          "pallets": "12",
+          "shipment_id": "SH-9120",
+          "weight_kg": "2100"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-shipment-heavy-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-receipt-books",
+      "prompt": "Extract the following fields as a JSON object with keys currency, date, items, merchant, total: \"Receipt from Northfield Books on 2026-10-14: 3 paperbacks for 42.30 USD.\"",
+      "reference": {
+        "fields": {
+          "currency": "USD",
+          "date": "2026-10-14",
+          "items": "3 paperbacks",
+          "merchant": "Northfield Books",
+          "total": "42.30"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-receipt-books-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-receipt-books",
+      "prompt": "From the sentence below return a JSON object with keys currency, date, items, merchant, total. Sentence: \"Receipt from Northfield Books on 2026-10-14: 3 paperbacks for 42.30 USD.\"",
+      "reference": {
+        "fields": {
+          "currency": "USD",
+          "date": "2026-10-14",
+          "items": "3 paperbacks",
+          "merchant": "Northfield Books",
+          "total": "42.30"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-receipt-books-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-receipt-books",
+      "prompt": "Read: \"Receipt from Northfield Books on 2026-10-14: 3 paperbacks for 42.30 USD.\". Reply with a JSON object containing the keys currency, date, items, merchant, total.",
+      "reference": {
+        "fields": {
+          "currency": "USD",
+          "date": "2026-10-14",
+          "items": "3 paperbacks",
+          "merchant": "Northfield Books",
+          "total": "42.30"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-receipt-books-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-order-hardware",
+      "prompt": "Extract the following fields as a JSON object with keys buyer, date, order_id, quantity, unit_price, vendor: \"Order PO-5544 placed by Ingrid at ToolWorks on 2026-09-18 contains 4 drills priced 99 USD each.\"",
+      "reference": {
+        "fields": {
+          "buyer": "Ingrid",
+          "date": "2026-09-18",
+          "order_id": "PO-5544",
+          "quantity": "4",
+          "unit_price": "99",
+          "vendor": "ToolWorks"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-order-hardware-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-order-hardware",
+      "prompt": "From the sentence below return a JSON object with keys buyer, date, order_id, quantity, unit_price, vendor. Sentence: \"Order PO-5544 placed by Ingrid at ToolWorks on 2026-09-18 contains 4 drills priced 99 USD each.\"",
+      "reference": {
+        "fields": {
+          "buyer": "Ingrid",
+          "date": "2026-09-18",
+          "order_id": "PO-5544",
+          "quantity": "4",
+          "unit_price": "99",
+          "vendor": "ToolWorks"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-order-hardware-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-order-hardware",
+      "prompt": "Read: \"Order PO-5544 placed by Ingrid at ToolWorks on 2026-09-18 contains 4 drills priced 99 USD each.\". Reply with a JSON object containing the keys buyer, date, order_id, quantity, unit_price, vendor.",
+      "reference": {
+        "fields": {
+          "buyer": "Ingrid",
+          "date": "2026-09-18",
+          "order_id": "PO-5544",
+          "quantity": "4",
+          "unit_price": "99",
+          "vendor": "ToolWorks"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-order-hardware-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-order-furniture",
+      "prompt": "Extract the following fields as a JSON object with keys buyer, date, order_id, quantity, unit_price, vendor: \"Order PO-6677 placed by Marco at ChairCo on 2026-10-01 contains 8 chairs priced 65 USD each.\"",
+      "reference": {
+        "fields": {
+          "buyer": "Marco",
+          "date": "2026-10-01",
+          "order_id": "PO-6677",
+          "quantity": "8",
+          "unit_price": "65",
+          "vendor": "ChairCo"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-order-furniture-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-order-furniture",
+      "prompt": "From the sentence below return a JSON object with keys buyer, date, order_id, quantity, unit_price, vendor. Sentence: \"Order PO-6677 placed by Marco at ChairCo on 2026-10-01 contains 8 chairs priced 65 USD each.\"",
+      "reference": {
+        "fields": {
+          "buyer": "Marco",
+          "date": "2026-10-01",
+          "order_id": "PO-6677",
+          "quantity": "8",
+          "unit_price": "65",
+          "vendor": "ChairCo"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-order-furniture-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-order-furniture",
+      "prompt": "Read: \"Order PO-6677 placed by Marco at ChairCo on 2026-10-01 contains 8 chairs priced 65 USD each.\". Reply with a JSON object containing the keys buyer, date, order_id, quantity, unit_price, vendor.",
+      "reference": {
+        "fields": {
+          "buyer": "Marco",
+          "date": "2026-10-01",
+          "order_id": "PO-6677",
+          "quantity": "8",
+          "unit_price": "65",
+          "vendor": "ChairCo"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-order-furniture-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-ticket-match",
+      "prompt": "Extract the following fields as a JSON object with keys attendee, currency, date, price, seat, venue: \"Ticket for Omar on 2026-09-28 at Stadium 3 seat 118 priced 60 USD.\"",
+      "reference": {
+        "fields": {
+          "attendee": "Omar",
+          "currency": "USD",
+          "date": "2026-09-28",
+          "price": "60",
+          "seat": "118",
+          "venue": "Stadium 3"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-ticket-match-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-ticket-match",
+      "prompt": "From the sentence below return a JSON object with keys attendee, currency, date, price, seat, venue. Sentence: \"Ticket for Omar on 2026-09-28 at Stadium 3 seat 118 priced 60 USD.\"",
+      "reference": {
+        "fields": {
+          "attendee": "Omar",
+          "currency": "USD",
+          "date": "2026-09-28",
+          "price": "60",
+          "seat": "118",
+          "venue": "Stadium 3"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-ticket-match-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "extract",
+      "family_id": "extract-ticket-match",
+      "prompt": "Read: \"Ticket for Omar on 2026-09-28 at Stadium 3 seat 118 priced 60 USD.\". Reply with a JSON object containing the keys attendee, currency, date, price, seat, venue.",
+      "reference": {
+        "fields": {
+          "attendee": "Omar",
+          "currency": "USD",
+          "date": "2026-09-28",
+          "price": "60",
+          "seat": "118",
+          "venue": "Stadium 3"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "extract-ticket-match-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-pos-1",
+      "prompt": "Classify the text into one of positive, negative, neutral. Reply with only the label.\n\nText: The service was excellent and the staff very friendly.",
+      "reference": {
+        "label": "positive",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-pos-1-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-pos-1",
+      "prompt": "Pick the correct label from positive, negative, neutral for the text and reply with only the label.\n\nText: The service was excellent and the staff very friendly.",
+      "reference": {
+        "label": "positive",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-pos-1-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-pos-1",
+      "prompt": "Which of positive, negative, neutral best fits the following? Respond with the single label.\n\nText: The service was excellent and the staff very friendly.",
+      "reference": {
+        "label": "positive",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-pos-1-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-pos-2",
+      "prompt": "Classify the text into one of positive, negative, neutral. Reply with only the label.\n\nText: Loved the ending and would recommend it.",
+      "reference": {
+        "label": "positive",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-pos-2-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-pos-2",
+      "prompt": "Pick the correct label from positive, negative, neutral for the text and reply with only the label.\n\nText: Loved the ending and would recommend it.",
+      "reference": {
+        "label": "positive",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-pos-2-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-pos-2",
+      "prompt": "Which of positive, negative, neutral best fits the following? Respond with the single label.\n\nText: Loved the ending and would recommend it.",
+      "reference": {
+        "label": "positive",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-pos-2-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-pos-3",
+      "prompt": "Classify the text into one of positive, negative, neutral. Reply with only the label.\n\nText: Shipping was fast and the item is better than described.",
+      "reference": {
+        "label": "positive",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-pos-3-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-pos-3",
+      "prompt": "Pick the correct label from positive, negative, neutral for the text and reply with only the label.\n\nText: Shipping was fast and the item is better than described.",
+      "reference": {
+        "label": "positive",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-pos-3-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-pos-3",
+      "prompt": "Which of positive, negative, neutral best fits the following? Respond with the single label.\n\nText: Shipping was fast and the item is better than described.",
+      "reference": {
+        "label": "positive",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-pos-3-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-neg-1",
+      "prompt": "Classify the text into one of positive, negative, neutral. Reply with only the label.\n\nText: The order arrived broken and support never replied.",
+      "reference": {
+        "label": "negative",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-neg-1-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-neg-1",
+      "prompt": "Pick the correct label from positive, negative, neutral for the text and reply with only the label.\n\nText: The order arrived broken and support never replied.",
+      "reference": {
+        "label": "negative",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-neg-1-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-neg-1",
+      "prompt": "Which of positive, negative, neutral best fits the following? Respond with the single label.\n\nText: The order arrived broken and support never replied.",
+      "reference": {
+        "label": "negative",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-neg-1-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-neg-2",
+      "prompt": "Classify the text into one of positive, negative, neutral. Reply with only the label.\n\nText: Waited an hour for food that was cold.",
+      "reference": {
+        "label": "negative",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-neg-2-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-neg-2",
+      "prompt": "Pick the correct label from positive, negative, neutral for the text and reply with only the label.\n\nText: Waited an hour for food that was cold.",
+      "reference": {
+        "label": "negative",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-neg-2-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-neg-2",
+      "prompt": "Which of positive, negative, neutral best fits the following? Respond with the single label.\n\nText: Waited an hour for food that was cold.",
+      "reference": {
+        "label": "negative",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-neg-2-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-neu-1",
+      "prompt": "Classify the text into one of positive, negative, neutral. Reply with only the label.\n\nText: The package arrived on the stated day.",
+      "reference": {
+        "label": "neutral",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-neu-1-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-neu-1",
+      "prompt": "Pick the correct label from positive, negative, neutral for the text and reply with only the label.\n\nText: The package arrived on the stated day.",
+      "reference": {
+        "label": "neutral",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-neu-1-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-neu-1",
+      "prompt": "Which of positive, negative, neutral best fits the following? Respond with the single label.\n\nText: The package arrived on the stated day.",
+      "reference": {
+        "label": "neutral",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-neu-1-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-neu-2",
+      "prompt": "Classify the text into one of positive, negative, neutral. Reply with only the label.\n\nText: The meeting lasted forty minutes.",
+      "reference": {
+        "label": "neutral",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-neu-2-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-neu-2",
+      "prompt": "Pick the correct label from positive, negative, neutral for the text and reply with only the label.\n\nText: The meeting lasted forty minutes.",
+      "reference": {
+        "label": "neutral",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-neu-2-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-sentiment-neu-2",
+      "prompt": "Which of positive, negative, neutral best fits the following? Respond with the single label.\n\nText: The meeting lasted forty minutes.",
+      "reference": {
+        "label": "neutral",
+        "labels": [
+          "positive",
+          "negative",
+          "neutral"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-sentiment-neu-2-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-sport-1",
+      "prompt": "Classify the text into one of sport, science, business, politics. Reply with only the label.\n\nText: The team scored three goals in the final minutes to secure the title.",
+      "reference": {
+        "label": "sport",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-sport-1-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-sport-1",
+      "prompt": "Pick the correct label from sport, science, business, politics for the text and reply with only the label.\n\nText: The team scored three goals in the final minutes to secure the title.",
+      "reference": {
+        "label": "sport",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-sport-1-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-sport-1",
+      "prompt": "Which of sport, science, business, politics best fits the following? Respond with the single label.\n\nText: The team scored three goals in the final minutes to secure the title.",
+      "reference": {
+        "label": "sport",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-sport-1-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-science-1",
+      "prompt": "Classify the text into one of sport, science, business, politics. Reply with only the label.\n\nText: Researchers reported a new compound that inhibits a bacterial enzyme in lab tests.",
+      "reference": {
+        "label": "science",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-science-1-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-science-1",
+      "prompt": "Pick the correct label from sport, science, business, politics for the text and reply with only the label.\n\nText: Researchers reported a new compound that inhibits a bacterial enzyme in lab tests.",
+      "reference": {
+        "label": "science",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-science-1-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-science-1",
+      "prompt": "Which of sport, science, business, politics best fits the following? Respond with the single label.\n\nText: Researchers reported a new compound that inhibits a bacterial enzyme in lab tests.",
+      "reference": {
+        "label": "science",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-science-1-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-business-2",
+      "prompt": "Classify the text into one of sport, science, business, politics. Reply with only the label.\n\nText: The firm posted stronger quarterly earnings on export sales.",
+      "reference": {
+        "label": "business",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-business-2-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-business-2",
+      "prompt": "Pick the correct label from sport, science, business, politics for the text and reply with only the label.\n\nText: The firm posted stronger quarterly earnings on export sales.",
+      "reference": {
+        "label": "business",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-business-2-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "classify",
+      "family_id": "classify-topic-business-2",
+      "prompt": "Which of sport, science, business, politics best fits the following? Respond with the single label.\n\nText: The firm posted stronger quarterly earnings on export sales.",
+      "reference": {
+        "label": "business",
+        "labels": [
+          "sport",
+          "science",
+          "business",
+          "politics"
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "classify-topic-business-2-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "format",
+      "family_id": "format-greeting",
+      "prompt": "Output a single JSON object describing the greeting \"hello world\". Keys and types: greeting: string. Return JSON only.",
+      "reference": {
+        "schema": {
+          "greeting": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-greeting-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "format",
+      "family_id": "format-greeting",
+      "prompt": "Return only a JSON object for the greeting \"hello world\". It must have exactly the keys and types: greeting: string.",
+      "reference": {
+        "schema": {
+          "greeting": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-greeting-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "format",
+      "family_id": "format-greeting",
+      "prompt": "Produce JSON (no prose) for the greeting \"hello world\" with these keys and types: greeting: string.",
+      "reference": {
+        "schema": {
+          "greeting": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-greeting-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "format",
+      "family_id": "format-point",
+      "prompt": "Output a single JSON object describing the point with x=2 and y=3. Keys and types: x: integer, y: integer. Return JSON only.",
+      "reference": {
+        "schema": {
+          "x": "integer",
+          "y": "integer"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-point-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "format",
+      "family_id": "format-point",
+      "prompt": "Return only a JSON object for the point with x=2 and y=3. It must have exactly the keys and types: x: integer, y: integer.",
+      "reference": {
+        "schema": {
+          "x": "integer",
+          "y": "integer"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-point-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "format",
+      "family_id": "format-point",
+      "prompt": "Produce JSON (no prose) for the point with x=2 and y=3 with these keys and types: x: integer, y: integer.",
+      "reference": {
+        "schema": {
+          "x": "integer",
+          "y": "integer"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-point-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "format",
+      "family_id": "format-color",
+      "prompt": "Output a single JSON object describing the color named \"azure\" with hex \"#f0ffff\". Keys and types: hex: string, name: string. Return JSON only.",
+      "reference": {
+        "schema": {
+          "hex": "string",
+          "name": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-color-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "format",
+      "family_id": "format-color",
+      "prompt": "Return only a JSON object for the color named \"azure\" with hex \"#f0ffff\". It must have exactly the keys and types: hex: string, name: string.",
+      "reference": {
+        "schema": {
+          "hex": "string",
+          "name": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-color-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "format",
+      "family_id": "format-color",
+      "prompt": "Produce JSON (no prose) for the color named \"azure\" with hex \"#f0ffff\" with these keys and types: hex: string, name: string.",
+      "reference": {
+        "schema": {
+          "hex": "string",
+          "name": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-color-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "format",
+      "family_id": "format-range",
+      "prompt": "Output a single JSON object describing the inclusive range from 4 to 9. Keys and types: end: integer, start: integer. Return JSON only.",
+      "reference": {
+        "schema": {
+          "end": "integer",
+          "start": "integer"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-range-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "format",
+      "family_id": "format-range",
+      "prompt": "Return only a JSON object for the inclusive range from 4 to 9. It must have exactly the keys and types: end: integer, start: integer.",
+      "reference": {
+        "schema": {
+          "end": "integer",
+          "start": "integer"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-range-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "format",
+      "family_id": "format-range",
+      "prompt": "Produce JSON (no prose) for the inclusive range from 4 to 9 with these keys and types: end: integer, start: integer.",
+      "reference": {
+        "schema": {
+          "end": "integer",
+          "start": "integer"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-range-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "format",
+      "family_id": "format-user",
+      "prompt": "Output a single JSON object describing user id 7 named \"Robin\". Keys and types: id: integer, name: string. Return JSON only.",
+      "reference": {
+        "schema": {
+          "id": "integer",
+          "name": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-user-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "format",
+      "family_id": "format-user",
+      "prompt": "Return only a JSON object for user id 7 named \"Robin\". It must have exactly the keys and types: id: integer, name: string.",
+      "reference": {
+        "schema": {
+          "id": "integer",
+          "name": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-user-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "format",
+      "family_id": "format-user",
+      "prompt": "Produce JSON (no prose) for user id 7 named \"Robin\" with these keys and types: id: integer, name: string.",
+      "reference": {
+        "schema": {
+          "id": "integer",
+          "name": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-user-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "format",
+      "family_id": "format-temperature",
+      "prompt": "Output a single JSON object describing a temperature of 22 with status \"ok\". Keys and types: celsius: integer, status: string. Return JSON only.",
+      "reference": {
+        "schema": {
+          "celsius": "integer",
+          "status": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-temperature-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "format",
+      "family_id": "format-temperature",
+      "prompt": "Return only a JSON object for a temperature of 22 with status \"ok\". It must have exactly the keys and types: celsius: integer, status: string.",
+      "reference": {
+        "schema": {
+          "celsius": "integer",
+          "status": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-temperature-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "format",
+      "family_id": "format-temperature",
+      "prompt": "Produce JSON (no prose) for a temperature of 22 with status \"ok\" with these keys and types: celsius: integer, status: string.",
+      "reference": {
+        "schema": {
+          "celsius": "integer",
+          "status": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-temperature-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "format",
+      "family_id": "format-coord",
+      "prompt": "Output a single JSON object describing coordinates 48.86 N, 2.35 E. Keys and types: lat: number, lon: number. Return JSON only.",
+      "reference": {
+        "schema": {
+          "lat": "number",
+          "lon": "number"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-coord-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "format",
+      "family_id": "format-coord",
+      "prompt": "Return only a JSON object for coordinates 48.86 N, 2.35 E. It must have exactly the keys and types: lat: number, lon: number.",
+      "reference": {
+        "schema": {
+          "lat": "number",
+          "lon": "number"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-coord-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "format",
+      "family_id": "format-coord",
+      "prompt": "Produce JSON (no prose) for coordinates 48.86 N, 2.35 E with these keys and types: lat: number, lon: number.",
+      "reference": {
+        "schema": {
+          "lat": "number",
+          "lon": "number"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-coord-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "format",
+      "family_id": "format-flagged-user",
+      "prompt": "Output a single JSON object describing user id 101 verified true. Keys and types: id: integer, verified: boolean. Return JSON only.",
+      "reference": {
+        "schema": {
+          "id": "integer",
+          "verified": "boolean"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-flagged-user-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "format",
+      "family_id": "format-flagged-user",
+      "prompt": "Return only a JSON object for user id 101 verified true. It must have exactly the keys and types: id: integer, verified: boolean.",
+      "reference": {
+        "schema": {
+          "id": "integer",
+          "verified": "boolean"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-flagged-user-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "format",
+      "family_id": "format-flagged-user",
+      "prompt": "Produce JSON (no prose) for user id 101 verified true with these keys and types: id: integer, verified: boolean.",
+      "reference": {
+        "schema": {
+          "id": "integer",
+          "verified": "boolean"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-flagged-user-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "format",
+      "family_id": "format-timer",
+      "prompt": "Output a single JSON object describing a timer labelled \"brew\" set to 180 seconds. Keys and types: label: string, seconds: integer. Return JSON only.",
+      "reference": {
+        "schema": {
+          "label": "string",
+          "seconds": "integer"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-timer-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "format",
+      "family_id": "format-timer",
+      "prompt": "Return only a JSON object for a timer labelled \"brew\" set to 180 seconds. It must have exactly the keys and types: label: string, seconds: integer.",
+      "reference": {
+        "schema": {
+          "label": "string",
+          "seconds": "integer"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-timer-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "format",
+      "family_id": "format-timer",
+      "prompt": "Produce JSON (no prose) for a timer labelled \"brew\" set to 180 seconds with these keys and types: label: string, seconds: integer.",
+      "reference": {
+        "schema": {
+          "label": "string",
+          "seconds": "integer"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-timer-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "format",
+      "family_id": "format-price",
+      "prompt": "Output a single JSON object describing a price of 9.50 in \"USD\". Keys and types: amount: number, currency: string. Return JSON only.",
+      "reference": {
+        "schema": {
+          "amount": "number",
+          "currency": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-price-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "format",
+      "family_id": "format-price",
+      "prompt": "Return only a JSON object for a price of 9.50 in \"USD\". It must have exactly the keys and types: amount: number, currency: string.",
+      "reference": {
+        "schema": {
+          "amount": "number",
+          "currency": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-price-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "format",
+      "family_id": "format-price",
+      "prompt": "Produce JSON (no prose) for a price of 9.50 in \"USD\" with these keys and types: amount: number, currency: string.",
+      "reference": {
+        "schema": {
+          "amount": "number",
+          "currency": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-price-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "format",
+      "family_id": "format-note",
+      "prompt": "Output a single JSON object describing note id 3 with text \"remember milk\". Keys and types: id: integer, text: string. Return JSON only.",
+      "reference": {
+        "schema": {
+          "id": "integer",
+          "text": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-note-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "format",
+      "family_id": "format-note",
+      "prompt": "Return only a JSON object for note id 3 with text \"remember milk\". It must have exactly the keys and types: id: integer, text: string.",
+      "reference": {
+        "schema": {
+          "id": "integer",
+          "text": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-note-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "format",
+      "family_id": "format-note",
+      "prompt": "Produce JSON (no prose) for note id 3 with text \"remember milk\" with these keys and types: id: integer, text: string.",
+      "reference": {
+        "schema": {
+          "id": "integer",
+          "text": "string"
+        }
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "format-note-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "code",
+      "family_id": "code-add",
+      "prompt": "Write a Python function with the signature:\n\ndef add(a: int, b: int) -> int:\n    ...\n\nReturn only the complete function definition. No prose, no imports unless necessary.",
+      "reference": {
+        "function": "add",
+        "signature": "def add(a: int, b: int) -> int:",
+        "tests": [
+          {
+            "expected": 0,
+            "input": [
+              0,
+              0
+            ]
+          },
+          {
+            "expected": 3,
+            "input": [
+              1,
+              2
+            ]
+          },
+          {
+            "expected": 2,
+            "input": [
+              -3,
+              5
+            ]
+          },
+          {
+            "expected": 20,
+            "input": [
+              10,
+              10
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-add-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "code",
+      "family_id": "code-add",
+      "prompt": "Implement the Python function below exactly as named. Return only the function source.\n\ndef add(a: int, b: int) -> int:\n    ...",
+      "reference": {
+        "function": "add",
+        "signature": "def add(a: int, b: int) -> int:",
+        "tests": [
+          {
+            "expected": 0,
+            "input": [
+              0,
+              0
+            ]
+          },
+          {
+            "expected": 3,
+            "input": [
+              1,
+              2
+            ]
+          },
+          {
+            "expected": 2,
+            "input": [
+              -3,
+              5
+            ]
+          },
+          {
+            "expected": 20,
+            "input": [
+              10,
+              10
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-add-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "code",
+      "family_id": "code-add",
+      "prompt": "Produce a single Python function matching this signature. Reply with only the source.\n\ndef add(a: int, b: int) -> int:",
+      "reference": {
+        "function": "add",
+        "signature": "def add(a: int, b: int) -> int:",
+        "tests": [
+          {
+            "expected": 0,
+            "input": [
+              0,
+              0
+            ]
+          },
+          {
+            "expected": 3,
+            "input": [
+              1,
+              2
+            ]
+          },
+          {
+            "expected": 2,
+            "input": [
+              -3,
+              5
+            ]
+          },
+          {
+            "expected": 20,
+            "input": [
+              10,
+              10
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-add-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "code",
+      "family_id": "code-multiply",
+      "prompt": "Write a Python function with the signature:\n\ndef multiply(a: int, b: int) -> int:\n    ...\n\nReturn only the complete function definition. No prose, no imports unless necessary.",
+      "reference": {
+        "function": "multiply",
+        "signature": "def multiply(a: int, b: int) -> int:",
+        "tests": [
+          {
+            "expected": 0,
+            "input": [
+              0,
+              5
+            ]
+          },
+          {
+            "expected": 12,
+            "input": [
+              3,
+              4
+            ]
+          },
+          {
+            "expected": -12,
+            "input": [
+              -2,
+              6
+            ]
+          },
+          {
+            "expected": 0,
+            "input": [
+              7,
+              0
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-multiply-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "code",
+      "family_id": "code-multiply",
+      "prompt": "Implement the Python function below exactly as named. Return only the function source.\n\ndef multiply(a: int, b: int) -> int:\n    ...",
+      "reference": {
+        "function": "multiply",
+        "signature": "def multiply(a: int, b: int) -> int:",
+        "tests": [
+          {
+            "expected": 0,
+            "input": [
+              0,
+              5
+            ]
+          },
+          {
+            "expected": 12,
+            "input": [
+              3,
+              4
+            ]
+          },
+          {
+            "expected": -12,
+            "input": [
+              -2,
+              6
+            ]
+          },
+          {
+            "expected": 0,
+            "input": [
+              7,
+              0
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-multiply-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "code",
+      "family_id": "code-multiply",
+      "prompt": "Produce a single Python function matching this signature. Reply with only the source.\n\ndef multiply(a: int, b: int) -> int:",
+      "reference": {
+        "function": "multiply",
+        "signature": "def multiply(a: int, b: int) -> int:",
+        "tests": [
+          {
+            "expected": 0,
+            "input": [
+              0,
+              5
+            ]
+          },
+          {
+            "expected": 12,
+            "input": [
+              3,
+              4
+            ]
+          },
+          {
+            "expected": -12,
+            "input": [
+              -2,
+              6
+            ]
+          },
+          {
+            "expected": 0,
+            "input": [
+              7,
+              0
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-multiply-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "code",
+      "family_id": "code-factorial",
+      "prompt": "Write a Python function with the signature:\n\ndef factorial(n: int) -> int:\n    ...\n\nReturn only the complete function definition. No prose, no imports unless necessary.",
+      "reference": {
+        "function": "factorial",
+        "signature": "def factorial(n: int) -> int:",
+        "tests": [
+          {
+            "expected": 1,
+            "input": [
+              0
+            ]
+          },
+          {
+            "expected": 1,
+            "input": [
+              1
+            ]
+          },
+          {
+            "expected": 24,
+            "input": [
+              4
+            ]
+          },
+          {
+            "expected": 720,
+            "input": [
+              6
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-factorial-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "code",
+      "family_id": "code-factorial",
+      "prompt": "Implement the Python function below exactly as named. Return only the function source.\n\ndef factorial(n: int) -> int:\n    ...",
+      "reference": {
+        "function": "factorial",
+        "signature": "def factorial(n: int) -> int:",
+        "tests": [
+          {
+            "expected": 1,
+            "input": [
+              0
+            ]
+          },
+          {
+            "expected": 1,
+            "input": [
+              1
+            ]
+          },
+          {
+            "expected": 24,
+            "input": [
+              4
+            ]
+          },
+          {
+            "expected": 720,
+            "input": [
+              6
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-factorial-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "code",
+      "family_id": "code-factorial",
+      "prompt": "Produce a single Python function matching this signature. Reply with only the source.\n\ndef factorial(n: int) -> int:",
+      "reference": {
+        "function": "factorial",
+        "signature": "def factorial(n: int) -> int:",
+        "tests": [
+          {
+            "expected": 1,
+            "input": [
+              0
+            ]
+          },
+          {
+            "expected": 1,
+            "input": [
+              1
+            ]
+          },
+          {
+            "expected": 24,
+            "input": [
+              4
+            ]
+          },
+          {
+            "expected": 720,
+            "input": [
+              6
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-factorial-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "code",
+      "family_id": "code-reverse-string",
+      "prompt": "Write a Python function with the signature:\n\ndef reverse(text: str) -> str:\n    ...\n\nReturn only the complete function definition. No prose, no imports unless necessary.",
+      "reference": {
+        "function": "reverse",
+        "signature": "def reverse(text: str) -> str:",
+        "tests": [
+          {
+            "expected": "",
+            "input": [
+              ""
+            ]
+          },
+          {
+            "expected": "a",
+            "input": [
+              "a"
+            ]
+          },
+          {
+            "expected": "cba",
+            "input": [
+              "abc"
+            ]
+          },
+          {
+            "expected": "level",
+            "input": [
+              "level"
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-reverse-string-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "code",
+      "family_id": "code-reverse-string",
+      "prompt": "Implement the Python function below exactly as named. Return only the function source.\n\ndef reverse(text: str) -> str:\n    ...",
+      "reference": {
+        "function": "reverse",
+        "signature": "def reverse(text: str) -> str:",
+        "tests": [
+          {
+            "expected": "",
+            "input": [
+              ""
+            ]
+          },
+          {
+            "expected": "a",
+            "input": [
+              "a"
+            ]
+          },
+          {
+            "expected": "cba",
+            "input": [
+              "abc"
+            ]
+          },
+          {
+            "expected": "level",
+            "input": [
+              "level"
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-reverse-string-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "code",
+      "family_id": "code-reverse-string",
+      "prompt": "Produce a single Python function matching this signature. Reply with only the source.\n\ndef reverse(text: str) -> str:",
+      "reference": {
+        "function": "reverse",
+        "signature": "def reverse(text: str) -> str:",
+        "tests": [
+          {
+            "expected": "",
+            "input": [
+              ""
+            ]
+          },
+          {
+            "expected": "a",
+            "input": [
+              "a"
+            ]
+          },
+          {
+            "expected": "cba",
+            "input": [
+              "abc"
+            ]
+          },
+          {
+            "expected": "level",
+            "input": [
+              "level"
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-reverse-string-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "code",
+      "family_id": "code-max-of-list",
+      "prompt": "Write a Python function with the signature:\n\ndef max_of(values: list[int]) -> int:\n    ...\n\nReturn only the complete function definition. No prose, no imports unless necessary.",
+      "reference": {
+        "function": "max_of",
+        "signature": "def max_of(values: list[int]) -> int:",
+        "tests": [
+          {
+            "expected": 1,
+            "input": [
+              [
+                1
+              ]
+            ]
+          },
+          {
+            "expected": 3,
+            "input": [
+              [
+                1,
+                2,
+                3
+              ]
+            ]
+          },
+          {
+            "expected": -2,
+            "input": [
+              [
+                -5,
+                -2,
+                -9
+              ]
+            ]
+          },
+          {
+            "expected": 4,
+            "input": [
+              [
+                4,
+                4,
+                4
+              ]
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-max-of-list-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "code",
+      "family_id": "code-max-of-list",
+      "prompt": "Implement the Python function below exactly as named. Return only the function source.\n\ndef max_of(values: list[int]) -> int:\n    ...",
+      "reference": {
+        "function": "max_of",
+        "signature": "def max_of(values: list[int]) -> int:",
+        "tests": [
+          {
+            "expected": 1,
+            "input": [
+              [
+                1
+              ]
+            ]
+          },
+          {
+            "expected": 3,
+            "input": [
+              [
+                1,
+                2,
+                3
+              ]
+            ]
+          },
+          {
+            "expected": -2,
+            "input": [
+              [
+                -5,
+                -2,
+                -9
+              ]
+            ]
+          },
+          {
+            "expected": 4,
+            "input": [
+              [
+                4,
+                4,
+                4
+              ]
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-max-of-list-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "code",
+      "family_id": "code-max-of-list",
+      "prompt": "Produce a single Python function matching this signature. Reply with only the source.\n\ndef max_of(values: list[int]) -> int:",
+      "reference": {
+        "function": "max_of",
+        "signature": "def max_of(values: list[int]) -> int:",
+        "tests": [
+          {
+            "expected": 1,
+            "input": [
+              [
+                1
+              ]
+            ]
+          },
+          {
+            "expected": 3,
+            "input": [
+              [
+                1,
+                2,
+                3
+              ]
+            ]
+          },
+          {
+            "expected": -2,
+            "input": [
+              [
+                -5,
+                -2,
+                -9
+              ]
+            ]
+          },
+          {
+            "expected": 4,
+            "input": [
+              [
+                4,
+                4,
+                4
+              ]
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-max-of-list-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "code",
+      "family_id": "code-count-vowels",
+      "prompt": "Write a Python function with the signature:\n\ndef count_vowels(text: str) -> int:\n    ...\n\nReturn only the complete function definition. No prose, no imports unless necessary.",
+      "reference": {
+        "function": "count_vowels",
+        "signature": "def count_vowels(text: str) -> int:",
+        "tests": [
+          {
+            "expected": 0,
+            "input": [
+              ""
+            ]
+          },
+          {
+            "expected": 1,
+            "input": [
+              "abc"
+            ]
+          },
+          {
+            "expected": 5,
+            "input": [
+              "Education"
+            ]
+          },
+          {
+            "expected": 0,
+            "input": [
+              "xyz"
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-count-vowels-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "code",
+      "family_id": "code-count-vowels",
+      "prompt": "Implement the Python function below exactly as named. Return only the function source.\n\ndef count_vowels(text: str) -> int:\n    ...",
+      "reference": {
+        "function": "count_vowels",
+        "signature": "def count_vowels(text: str) -> int:",
+        "tests": [
+          {
+            "expected": 0,
+            "input": [
+              ""
+            ]
+          },
+          {
+            "expected": 1,
+            "input": [
+              "abc"
+            ]
+          },
+          {
+            "expected": 5,
+            "input": [
+              "Education"
+            ]
+          },
+          {
+            "expected": 0,
+            "input": [
+              "xyz"
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-count-vowels-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "code",
+      "family_id": "code-count-vowels",
+      "prompt": "Produce a single Python function matching this signature. Reply with only the source.\n\ndef count_vowels(text: str) -> int:",
+      "reference": {
+        "function": "count_vowels",
+        "signature": "def count_vowels(text: str) -> int:",
+        "tests": [
+          {
+            "expected": 0,
+            "input": [
+              ""
+            ]
+          },
+          {
+            "expected": 1,
+            "input": [
+              "abc"
+            ]
+          },
+          {
+            "expected": 5,
+            "input": [
+              "Education"
+            ]
+          },
+          {
+            "expected": 0,
+            "input": [
+              "xyz"
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-count-vowels-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "code",
+      "family_id": "code-is-even",
+      "prompt": "Write a Python function with the signature:\n\ndef is_even(n: int) -> bool:\n    ...\n\nReturn only the complete function definition. No prose, no imports unless necessary.",
+      "reference": {
+        "function": "is_even",
+        "signature": "def is_even(n: int) -> bool:",
+        "tests": [
+          {
+            "expected": true,
+            "input": [
+              0
+            ]
+          },
+          {
+            "expected": false,
+            "input": [
+              1
+            ]
+          },
+          {
+            "expected": true,
+            "input": [
+              2
+            ]
+          },
+          {
+            "expected": false,
+            "input": [
+              -3
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-is-even-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "code",
+      "family_id": "code-is-even",
+      "prompt": "Implement the Python function below exactly as named. Return only the function source.\n\ndef is_even(n: int) -> bool:\n    ...",
+      "reference": {
+        "function": "is_even",
+        "signature": "def is_even(n: int) -> bool:",
+        "tests": [
+          {
+            "expected": true,
+            "input": [
+              0
+            ]
+          },
+          {
+            "expected": false,
+            "input": [
+              1
+            ]
+          },
+          {
+            "expected": true,
+            "input": [
+              2
+            ]
+          },
+          {
+            "expected": false,
+            "input": [
+              -3
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-is-even-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "code",
+      "family_id": "code-is-even",
+      "prompt": "Produce a single Python function matching this signature. Reply with only the source.\n\ndef is_even(n: int) -> bool:",
+      "reference": {
+        "function": "is_even",
+        "signature": "def is_even(n: int) -> bool:",
+        "tests": [
+          {
+            "expected": true,
+            "input": [
+              0
+            ]
+          },
+          {
+            "expected": false,
+            "input": [
+              1
+            ]
+          },
+          {
+            "expected": true,
+            "input": [
+              2
+            ]
+          },
+          {
+            "expected": false,
+            "input": [
+              -3
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-is-even-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "code",
+      "family_id": "code-clamp",
+      "prompt": "Write a Python function with the signature:\n\ndef clamp(value: int, lo: int, hi: int) -> int:\n    ...\n\nReturn only the complete function definition. No prose, no imports unless necessary.",
+      "reference": {
+        "function": "clamp",
+        "signature": "def clamp(value: int, lo: int, hi: int) -> int:",
+        "tests": [
+          {
+            "expected": 5,
+            "input": [
+              5,
+              0,
+              10
+            ]
+          },
+          {
+            "expected": 0,
+            "input": [
+              -1,
+              0,
+              10
+            ]
+          },
+          {
+            "expected": 10,
+            "input": [
+              11,
+              0,
+              10
+            ]
+          },
+          {
+            "expected": 0,
+            "input": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-clamp-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "code",
+      "family_id": "code-clamp",
+      "prompt": "Implement the Python function below exactly as named. Return only the function source.\n\ndef clamp(value: int, lo: int, hi: int) -> int:\n    ...",
+      "reference": {
+        "function": "clamp",
+        "signature": "def clamp(value: int, lo: int, hi: int) -> int:",
+        "tests": [
+          {
+            "expected": 5,
+            "input": [
+              5,
+              0,
+              10
+            ]
+          },
+          {
+            "expected": 0,
+            "input": [
+              -1,
+              0,
+              10
+            ]
+          },
+          {
+            "expected": 10,
+            "input": [
+              11,
+              0,
+              10
+            ]
+          },
+          {
+            "expected": 0,
+            "input": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-clamp-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "code",
+      "family_id": "code-clamp",
+      "prompt": "Produce a single Python function matching this signature. Reply with only the source.\n\ndef clamp(value: int, lo: int, hi: int) -> int:",
+      "reference": {
+        "function": "clamp",
+        "signature": "def clamp(value: int, lo: int, hi: int) -> int:",
+        "tests": [
+          {
+            "expected": 5,
+            "input": [
+              5,
+              0,
+              10
+            ]
+          },
+          {
+            "expected": 0,
+            "input": [
+              -1,
+              0,
+              10
+            ]
+          },
+          {
+            "expected": 10,
+            "input": [
+              11,
+              0,
+              10
+            ]
+          },
+          {
+            "expected": 0,
+            "input": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-clamp-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "code",
+      "family_id": "code-fib",
+      "prompt": "Write a Python function with the signature:\n\ndef fib(n: int) -> int:\n    ...\n\nReturn only the complete function definition. No prose, no imports unless necessary.",
+      "reference": {
+        "function": "fib",
+        "signature": "def fib(n: int) -> int:",
+        "tests": [
+          {
+            "expected": 0,
+            "input": [
+              0
+            ]
+          },
+          {
+            "expected": 1,
+            "input": [
+              1
+            ]
+          },
+          {
+            "expected": 5,
+            "input": [
+              5
+            ]
+          },
+          {
+            "expected": 55,
+            "input": [
+              10
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-fib-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "code",
+      "family_id": "code-fib",
+      "prompt": "Implement the Python function below exactly as named. Return only the function source.\n\ndef fib(n: int) -> int:\n    ...",
+      "reference": {
+        "function": "fib",
+        "signature": "def fib(n: int) -> int:",
+        "tests": [
+          {
+            "expected": 0,
+            "input": [
+              0
+            ]
+          },
+          {
+            "expected": 1,
+            "input": [
+              1
+            ]
+          },
+          {
+            "expected": 5,
+            "input": [
+              5
+            ]
+          },
+          {
+            "expected": 55,
+            "input": [
+              10
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-fib-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "code",
+      "family_id": "code-fib",
+      "prompt": "Produce a single Python function matching this signature. Reply with only the source.\n\ndef fib(n: int) -> int:",
+      "reference": {
+        "function": "fib",
+        "signature": "def fib(n: int) -> int:",
+        "tests": [
+          {
+            "expected": 0,
+            "input": [
+              0
+            ]
+          },
+          {
+            "expected": 1,
+            "input": [
+              1
+            ]
+          },
+          {
+            "expected": 5,
+            "input": [
+              5
+            ]
+          },
+          {
+            "expected": 55,
+            "input": [
+              10
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-fib-v2",
+      "variant_index": 2
+    },
+    {
+      "category": "code",
+      "family_id": "code-join-words",
+      "prompt": "Write a Python function with the signature:\n\ndef join_words(words: list[str], sep: str) -> str:\n    ...\n\nReturn only the complete function definition. No prose, no imports unless necessary.",
+      "reference": {
+        "function": "join_words",
+        "signature": "def join_words(words: list[str], sep: str) -> str:",
+        "tests": [
+          {
+            "expected": "",
+            "input": [
+              [],
+              "-"
+            ]
+          },
+          {
+            "expected": "a",
+            "input": [
+              [
+                "a"
+              ],
+              "-"
+            ]
+          },
+          {
+            "expected": "a-b",
+            "input": [
+              [
+                "a",
+                "b"
+              ],
+              "-"
+            ]
+          },
+          {
+            "expected": "x+y+z",
+            "input": [
+              [
+                "x",
+                "y",
+                "z"
+              ],
+              "+"
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-join-words-v0",
+      "variant_index": 0
+    },
+    {
+      "category": "code",
+      "family_id": "code-join-words",
+      "prompt": "Implement the Python function below exactly as named. Return only the function source.\n\ndef join_words(words: list[str], sep: str) -> str:\n    ...",
+      "reference": {
+        "function": "join_words",
+        "signature": "def join_words(words: list[str], sep: str) -> str:",
+        "tests": [
+          {
+            "expected": "",
+            "input": [
+              [],
+              "-"
+            ]
+          },
+          {
+            "expected": "a",
+            "input": [
+              [
+                "a"
+              ],
+              "-"
+            ]
+          },
+          {
+            "expected": "a-b",
+            "input": [
+              [
+                "a",
+                "b"
+              ],
+              "-"
+            ]
+          },
+          {
+            "expected": "x+y+z",
+            "input": [
+              [
+                "x",
+                "y",
+                "z"
+              ],
+              "+"
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-join-words-v1",
+      "variant_index": 1
+    },
+    {
+      "category": "code",
+      "family_id": "code-join-words",
+      "prompt": "Produce a single Python function matching this signature. Reply with only the source.\n\ndef join_words(words: list[str], sep: str) -> str:",
+      "reference": {
+        "function": "join_words",
+        "signature": "def join_words(words: list[str], sep: str) -> str:",
+        "tests": [
+          {
+            "expected": "",
+            "input": [
+              [],
+              "-"
+            ]
+          },
+          {
+            "expected": "a",
+            "input": [
+              [
+                "a"
+              ],
+              "-"
+            ]
+          },
+          {
+            "expected": "a-b",
+            "input": [
+              [
+                "a",
+                "b"
+              ],
+              "-"
+            ]
+          },
+          {
+            "expected": "x+y+z",
+            "input": [
+              [
+                "x",
+                "y",
+                "z"
+              ],
+              "+"
+            ]
+          }
+        ]
+      },
+      "schema_version": "benchmarks-v1",
+      "task_id": "code-join-words-v2",
+      "variant_index": 2
+    }
+  ]
+}

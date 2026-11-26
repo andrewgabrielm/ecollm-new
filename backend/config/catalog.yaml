@@ -1,0 +1,116 @@
+# Placeholders stay unverified and ineligible. Verified entries below were reviewed for Step 09
+# on 2026-11-23: pinned_digest/revision = SHA-256 of the official Ollama registry manifest bytes
+# (the same digest Ollama reports after pull); size_bytes = sum of the manifest's config + layer
+# sizes. memory_bytes is a conservative owner-reviewed estimate (weights + 2048-token KV cache +
+# runtime buffers, rounded up to 2 GiB), not a measurement. Capability scores remain unknown until
+# benchmarked (Step 12). Only macos-arm64 has been checked on owner hardware.
+schema_version: catalog-v1
+models:
+  - id: placeholder-general
+    pinned_digest: null
+    source:
+      uri: https://example.invalid/models/general
+      revision: null
+    runtime_tag: placeholder-general:unverified
+    family: unverified-placeholder
+    license_review:
+      status: unreviewed
+    quantization: unknown
+    capability_benchmark:
+      - task: qa
+        provenance: unknown
+    size_bytes: null
+    memory_bytes: null
+    platforms: []
+    verification: unverified
+  - id: placeholder-specialist
+    pinned_digest: null
+    source:
+      uri: https://example.invalid/models/specialist
+      revision: null
+    runtime_tag: placeholder-specialist:unverified
+    family: unverified-placeholder
+    license_review:
+      status: unreviewed
+    quantization: unknown
+    capability_benchmark:
+      - task: code
+        provenance: unknown
+    size_bytes: null
+    memory_bytes: null
+    platforms: []
+    verification: unverified
+  - id: qwen25-1-5b
+    pinned_digest: 65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b
+    source:
+      uri: https://registry.ollama.ai/v2/library/qwen2.5/manifests/1.5b
+      revision: 65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b
+    runtime_tag: qwen2.5:1.5b
+    family: qwen2.5
+    license_review:
+      status: approved
+      identifier: Apache-2.0
+      reference:
+        uri: https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/blob/main/LICENSE
+    quantization: Q4_K_M
+    capability_benchmark:
+      - task: qa
+        provenance: unknown
+      - task: summarise
+        provenance: unknown
+      - task: reason
+        provenance: unknown
+    size_bytes: 986061892
+    memory_bytes: 2147483648
+    platforms:
+      - macos-arm64
+    verification: verified
+  - id: qwen25-coder-1-5b
+    pinned_digest: d7372fd828518a4d38b1eb196c673c31a85f2ed302b3d1e406c4c2d1b64a0668
+    source:
+      uri: https://registry.ollama.ai/v2/library/qwen2.5-coder/manifests/1.5b
+      revision: d7372fd828518a4d38b1eb196c673c31a85f2ed302b3d1e406c4c2d1b64a0668
+    runtime_tag: qwen2.5-coder:1.5b
+    family: qwen2.5-coder
+    license_review:
+      status: approved
+      identifier: Apache-2.0
+      reference:
+        uri: https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct/blob/main/LICENSE
+    quantization: Q4_K_M
+    capability_benchmark:
+      - task: code
+        provenance: unknown
+      - task: format
+        provenance: unknown
+      - task: extract
+        provenance: unknown
+    size_bytes: 986062089
+    memory_bytes: 2147483648
+    platforms:
+      - macos-arm64
+    verification: verified
+  # Third catalog candidate: reviewed but intentionally not downloaded in Step 09.
+  - id: qwen25-0-5b
+    pinned_digest: a8b0c51577010a279d933d14c2a8ab4b268079d44c5c8830c0a93900f1827c67
+    source:
+      uri: https://registry.ollama.ai/v2/library/qwen2.5/manifests/0.5b
+      revision: a8b0c51577010a279d933d14c2a8ab4b268079d44c5c8830c0a93900f1827c67
+    runtime_tag: qwen2.5:0.5b
+    family: qwen2.5
+    license_review:
+      status: approved
+      identifier: Apache-2.0
+      reference:
+        uri: https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct/blob/main/LICENSE
+    quantization: Q4_K_M
+    capability_benchmark:
+      - task: qa
+        provenance: unknown
+      - task: classify
+        provenance: unknown
+    size_bytes: 397821319
+    memory_bytes: 1073741824
+    platforms:
+      - macos-arm64
+    verification: verified

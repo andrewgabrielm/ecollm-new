@@ -1,0 +1,1 @@
+PYTHONPATH="/Users/andrew/Documents/Projects/ecolm" "/Users/andrew/Documents/Projects/ecolm/.venv/bin/python" scripts/step09.py model-install

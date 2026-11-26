@@ -1,0 +1,49 @@
+schema_version: settings-v1
+mock_mode: true
+initial_mode: local_only
+managed_model_limit: 3
+initial_model_count: 2
+budgets:
+  local_seconds: 60
+  cloud_seconds: 30
+  overall_seconds: 120
+  approval_seconds: 120
+  resume_seconds: 120
+  health_ttl_seconds: 10
+  local_connection_retries: 1
+  cloud_retries: 0
+rule_weights:
+  quality: 1.0
+  latency: 0.3
+  load: 0.1
+preferences:
+  profile_id: local
+  mode: local_only
+  portfolio_mode: manual
+  exact_cache_enabled: false
+  semantic_cache_enabled: false
+  workload_persistence_enabled: false
+  local_learning_enabled: false
+  persistent_analytics_enabled: false
+# Seed destination only. Providers can also be added from the Cloud providers
+# panel at runtime; those are stored in the local database, not here. Every
+# destination is inert until its key is pasted in, and no model is pre-saved —
+# after the key is accepted the panel lists what that key can actually reach.
+# Keys live in process memory and clear on restart. Order is the fallback
+# preference: the first destination holding a key is used.
+cloud_destinations:
+  - endpoint: https://api.groq.com/openai/v1/chat/completions
+    health_endpoint: https://api.groq.com/openai/v1/models
+    model_id: groq
+    model_version: groq-v1
+    display_name: Groq
+
+  # Other OpenAI-compatible endpoints, verified 2026-11-25:
+  #   OpenAI    https://api.openai.com/v1/chat/completions
+  #   xAI Grok  https://api.x.ai/v1/chat/completions
+  #   Gemini    https://generativelanguage.googleapis.com/v1beta/openai/chat/completions
+  #   DeepSeek  https://api.deepseek.com/v1/chat/completions
+  #   Claude    https://api.anthropic.com/v1/chat/completions
+  #             (Anthropic documents this compatibility layer as meant for
+  #              testing rather than production, and it returns no thinking
+  #              output; native /v1/messages would need its own adapter.)

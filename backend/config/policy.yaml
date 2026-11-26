@@ -1,0 +1,7 @@
+# Declarative contract only; enforcement belongs to Step 05.
+schema_version: policy-config-v1
+policy_version: policy-v1
+hard_block_entity_types: [CREDIT_CARD, US_SSN]
+allowed_fallback_reasons: [local_error, validation_failure]
+allow_no_local_model_cloud: false
+cloud_preferred_categories: []
